@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/lumluminous/lum.github.io.git</id>
+    <title>Lum&apos;s Notes</title>
+    <updated>2022-07-06T14:39:59.948Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/lumluminous/lum.github.io.git"/>
+    <link rel="self" href="https://github.com/lumluminous/lum.github.io.git/atom.xml"/>
+    <subtitle>流星只听见一句誓愿就落在你背后</subtitle>
+    <logo>https://github.com/lumluminous/lum.github.io.git/images/avatar.png</logo>
+    <icon>https://github.com/lumluminous/lum.github.io.git/favicon.ico</icon>
+    <rights>All rights reserved 2022, Lum&apos;s Notes</rights>
+    <entry>
+        <title type="html"><![CDATA[Research methodology科学研究方法论]]></title>
+        <id>https://github.com/lumluminous/lum.github.io.git/post/research-methodology-ke-xue-yan-jiu-fang-fa-lun/</id>
+        <link href="https://github.com/lumluminous/lum.github.io.git/post/research-methodology-ke-xue-yan-jiu-fang-fa-lun/">
+        </link>
+        <updated>2022-07-06T13:11:42.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h3 id="1what-is-research-methodology">1.What is research methodology?</h3>
+<p>Research methodology simply refers to the practical “how” of any given piece of research. More specifically, it’s about how a researcher systematically designs a study to ensure valid and reliable results that address the research aims and objectives.</p>
+<p>For example, how did the researcher go about deciding:</p>
+<p>What data to collect (and what data to ignore)<br>
+Who to collect it from (in research, this is called “sampling design”)<br>
+How to collect it (this is called “data collection methods”)<br>
+How to analyse it (this is called “data analysis methods”)<br>
+In a dissertation, thesis, academic journal article (or pretty much any formal piece of research), you’ll find a research methodology chapter (or section) which covers the aspects mentioned above. Importantly, a good methodology chapter in a dissertation or thesis explains not just what methodological choices were made, but also explains why they were made.</p>
+<p>In other words, the methodology chapter should justify the design choices, by showing that the chosen methods and techniques are the best fit for the research aims and objectives, and will provide valid and reliable results. A good research methodology provides scientifically sound findings, whereas a poor methodology doesn’t. We’ll look at the main design choices below.</p>
+<h3 id="2-what-are-qualitative-quantitative-and-mixed-method-methodologies">2. What are qualitative, quantitative and mixed-method methodologies?</h3>
+<p>Qualitative, quantitative and mixed-methods are different types of methodologies, distinguished by whether they focus on words, numbers or both. This is a bit of an oversimplification, but its a good starting point for understandings. Let’s take a closer look.</p>
+<p>Qualitative research refers to research which focuses on collecting and analysing words (written or spoken) and textual data, whereas quantitative research focuses on measurement and testing using numerical data. Qualitative analysis can also focus on other “softer” data points, such as body language or visual elements.</p>
+<p>It’s quite common for a qualitative methodology to be used when the research aims and objectives are exploratory in nature. For example, a qualitative methodology might be used to understand peoples’ perceptions about an event that took place, or a candidate running for president.</p>
+<p>Contrasted to this, a quantitative methodology is typically used when the research aims and objectives are confirmatory in nature. For example, a quantitative methodology might be used to measure the relationship between two variables (e.g. personality type and likelihood to commit a crime) or to test a set of hypotheses.</p>
+<p>As you’ve probably guessed, the mixed-method methodology attempts to combine the best of both qualitative and quantitative methodologies to integrate perspectives and create a rich picture.</p>
+<h3 id="3what-are-the-main-sampling-design-approaches">3.What are the main sampling design approaches?</h3>
+<p>As we mentioned earlier, sampling design is about deciding who you’re going to collect your data from (i.e. your sample). There are many sample options, but the two main categories of sampling design are probability sampling and non-probability sampling.</p>
+<p>Probability sampling means that you use a completely random sample from the group of people you’re interested in (this group is called the “population”). By using a completely random sample, the results of your study will be generalisable to the entire population. In other words, you can expect the same results across the entire group, without having to collect data from the entire group (which is often not possible for large groups).</p>
+<p>Non-probability sampling, on the other hand, doesn’t use a random sample. For example, it might involve using a convenience sample, which means you’d interview or survey people that you have access to (perhaps your friends, family or work colleagues), rather than a truly random sample (which might be difficult to achieve due to resource constraints). With non-probability sampling, the results are typically not generalisable.</p>
+<h3 id="4what-are-the-main-data-collection-methods">4.What are the main data collection methods?</h3>
+<p>There are many different options in terms of how you go about collecting data for your study. However, these options can be grouped into the following types:</p>
+<p>Interviews (which can be unstructured, semi-structured or structured)<br>
+Focus groups and group interviews<br>
+Surveys (online or physical surveys)<br>
+Observations<br>
+Documents and records<br>
+Case studies<br>
+The choice of which data collection method to use depends on your overall research aims and objectives, as well as practicalities and resource constraints. For example, if your research is exploratory in nature, qualitative methods such as interviews and focus groups would likely be a good fit. Conversely, if your research aims to measure specific variables or test hypotheses, large-scale surveys that produce large volumes of numerical data would likely be a better fit.</p>
+<h3 id="5what-are-the-main-data-analysis-methods">5.What are the main data analysis methods?</h3>
+<p>Data analysis methods can be grouped according to whether the research is qualitative or quantitative.</p>
+<p>Popular data analysis methods in qualitative research include:</p>
+<blockquote>
+<p>Qualitative content analysis<br>
+Thematic analysis<br>
+Discourse analysis<br>
+Narrative analysis<br>
+Grounded theory<br>
+IPA</p>
+</blockquote>
+<p>Qualitative data analysis all begins with data coding, after which one (or more) analysis technique is applied.</p>
+<p>Popular data analysis methods in quantitative research include:</p>
+<p>Descriptive statistics (e.g. means, medians, modes)<br>
+Inferential statistics (e.g. correlation, regression, structural equation modelling)<br>
+Again, the choice of which data collection method to use depends on your overall research aims and objectives, as well as practicalities and resource constraints.</p>
+<h3 id="6how-do-i-choose-a-research-methodology">6.How do I choose a research methodology?</h3>
+<p>As you’ve probably picked up by now, your research aims and objectives have a major influence on the research methodology. So, the starting point for developing your research methodology is to take a step back and look at the big picture of your research, before you make methodology decisions. The first question you need to ask yourself is whether your research is exploratory or confirmatory in nature.</p>
+<p>If your research aims and objectives are primarily exploratory in nature, your research will likely be qualitative and therefore you might consider qualitative data collection methods (e.g. interviews) and analysis methods (e.g. qualitative content analysis).</p>
+<p>Conversely, if your research aims and objective are looking to measure or test something (i.e. they’re confirmatory), then your research will quite likely be quantitative in nature, and you might consider quantitative data collection methods (e.g. surveys) and analyses (e.g. statistical analysis).</p>
+<p>Designing your research and working out your methodology is a large topic, which we’ll cover in other posts. For now, however, the key takeaway is that you should always start with your research aims and objectives. Every methodology decision will flow from that.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://github.com/lumluminous/lum.github.io.git/post/hello-gridea/</id>
+        <link href="https://github.com/lumluminous/lum.github.io.git/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
