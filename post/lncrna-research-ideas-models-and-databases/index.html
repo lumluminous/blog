@@ -1,0 +1,583 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LncRNA research ideas, models and databases | Lum&#39;s Notes</title>
+<link rel="shortcut icon" href="https://lumluminous.github.io/blog/favicon.ico?v=1658559265011">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://lumluminous.github.io/blog/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="LncRNA research ideas, models and databases | Lum&#39;s Notes - Atom Feed" href="https://lumluminous.github.io/blog/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+20210704 revised
+本文总结了曾经红极一时、目前热度不减的lncRNA的研究思路和模式以及相关工具。总的来说，lncRNA机制研究套路还不成熟，和miRNA的总体研究思路相似，但lncRNA并不像miRNA一样通过3’UTR..." />
+    <meta name="keywords" content="original work" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://lumluminous.github.io/blog">
+  <img class="avatar" src="https://lumluminous.github.io/blog/images/avatar.png?v=1658559265011" alt="">
+  </a>
+  <h1 class="site-title">
+    Lum&#39;s Notes
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              LncRNA research ideas, models and databases
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-07-08
+              </span>
+              <span>
+                37 min read
+              </span>
+              
+                <a href="https://lumluminous.github.io/blog/tag/M_78-4gOP/" class="post-tag">
+                  # original work
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://lumluminous.github.io/blog/post-images/lncrna-research-ideas-models-and-databases.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <!-- more -->
+<p>20210704 revised</p>
+<p>本文总结了曾经红极一时、目前热度不减的lncRNA的研究思路和模式以及相关工具。总的来说，lncRNA机制研究套路还不成熟，和miRNA的总体研究思路相似，但lncRNA并不像miRNA一样通过3’UTR影响翻译功能。lncRNA分子的获得及其细胞表型的获得并非难事，关键在于如何进行下一步的研究。由于RNA-蛋白质互作的检测手段难得，lncRNA的机制研究相对困难，一般将lncRNA当做和mRNA一样的分子而非调节因子来研究（旧瓶装新酒）。在体外，可以通过分子干扰手段，进行分子及表型研究，体内亦然。</p>
+<p>**关键词：**长链非编码RNA　肿瘤免疫　数据库　模型方法</p>
+<p><strong>0</strong>   <strong>引言</strong></p>
+<p>LncRNA相关免疫治疗有诸多优点。LncRNA调控一系列下游靶基因，有多个调控位点，参与多种细胞信号转导途径，使其在肿瘤治疗中具有更强的有效性。许多lncRNA在多种肿瘤中差异性表达，具有肿瘤特异性，对新的个性化治疗的发展至关重要。作为癌基因或抑癌基因的lncRNA调节免疫细胞功能的特异性及其关键作用越来越受到人们的关注，通过技术手段调节异常表达的lncRNA，以充分调动免疫细胞功能，激发和增强体内抗肿瘤免疫应答，成为一种有前途的免疫治疗策略。</p>
+<p><strong>1</strong>   <strong>LncRNA<strong><strong>的</strong></strong>研究思路</strong></p>
+<!-- more -->
+<p>​<br>
+1.1　LncRNA的研究方向及实验手段</p>
+<p>图 1 lncRNA的研究方向及实验手段</p>
+<p>1.2　LncRNA的研究方法</p>
+<p><strong>A.</strong>   <strong>人类单细胞样本的采集</strong>**[1,2]**</p>
+<p>从肿瘤和邻近正常组织中收集单细胞。肿瘤和邻近的正常组织切成大约1mm3的小块，置于含有10%胎牛血清的RPMI-1640培养基中。用MACS肿瘤细胞分离试剂盒在转子上37℃消化30min。随后将分离的细胞随后通过70 μm的细胞过滤器(BD)，并在400g下离心10min。取上清液后，将细胞沉淀悬浮于红细胞裂解缓冲液中，在冰上孵育2min。用1xPBS洗涤两次后，将细胞沉淀重新悬浮在分选缓冲液(PBS+1%FBS)中。</p>
+<p>用HISTOPAQUE-1077(Sigma-Aldrich)溶液分离PBMC。手术前在EDTA抗凝管中收集4mL新鲜外周血，然后将其分层到HISTOPAQUE-1077上。离心后，淋巴细胞仍留在血浆-HISTOPAQUE-1077界面，并小心地转移到新的试管中，用1xPBS洗涤两次。通过上述相同的程序去除红细胞。将这些淋巴细胞重新悬浮在分选缓冲液中。</p>
+<p><strong>B.</strong>   <strong>样本的单细胞分选、逆转录、扩增和测序</strong></p>
+<p>单细胞悬液用抗CD45和7-AAD的抗体染色用于分选，通过门控CD3-或CD3-CD19 -CD79A-CD56-细胞以排除淋巴细胞，进一步富集单个骨髓细胞。对于T和单核细胞谱系细胞，通过门控7-AAD - CD45 + CD3 +和7-AAD -CD45+ CD3- CD14 +来富集单细胞。将单细胞分选到1.5 mL试管 (Eppendorf) 中并在显微镜下手动计数。单细胞悬液的浓度调整为500-1200细胞/ul。使用 10x Chromium Single cell 5' Library、Gel Bead &amp; Multiplex Kit和Chip Kit（10x Genomics）将细胞加到7000到15000个细胞芯片/位置。纯化的文库通过具有150 bp双端读数的Illumina测序仪进行分析。</p>
+<p><strong>C.</strong>   <strong>多重免疫荧光成像</strong></p>
+<p>将整个肿瘤固定在4％PFA / PBS中过夜，包埋在OCT冷冻培养基之前在30%蔗糖/PBS中脱水。在低温恒温器上切下16mm切片，粘附在Superfrost Plus载玻片上，并用含有0.3%Triton X-100（Sigma）和10%山羊血清的PBS透明/封闭。将切片用含0.1%Triton X-100和5%山羊血清的PBS中直接偶联抗体染色。盖玻片安装具有DAPI的ProLong Diamond，在LSM 510共聚焦显微镜上捕获图像。</p>
+<p><strong>D.</strong>   <strong>胞内细胞因子染色</strong></p>
+<p>用细胞刺激混合物加蛋白转运抑制剂在37℃ 5%CO2刺激细胞2小时，并辅以10%热灭活胎牛血清的RPMI培养基。为检测细胞内IL-12，用MC38荷瘤小鼠腹腔注射抗CD40抗体(100ug/只)或对照同种型。腹腔注射后2天取肿瘤，用Brefeldin A (Biolegend)在37℃、5%CO2、含10%热灭活胎牛血清的RPMI培养基中孵育3h。肿瘤消化后获得单细胞悬液，表面标志物染色后，IL-12染色。用Foxp3 Transcription Factor Staining Buffer (ThermoFisher)在4℃下固定细胞30min，以测定细胞内蛋白的表达。</p>
+<p>E.   <strong>Bulk DNA</strong> <strong>分离和测序</strong></p>
+<p>用QIAAmp DNA Mini Kit(QIAGEN)提取癌症患者外周血和组织标本的基因组DNA。用Qubit HsDNA试剂盒(Invitgen)测定DNA浓度，琼脂糖凝胶电泳评价DNA质量。外显子文库是使用SureSelectXT Human all Exon V5捕获库(Agilent)构建的。样品在Illumina HiSeq 4000测序仪上以150bp的配对末端读数进行测序。</p>
+<p><strong>F.</strong>   <strong>人组织的多色免疫组化</strong></p>
+<p>肿瘤切除后30min内采集标本，10%福尔马林固定48h，脱水石蜡包埋法。石蜡切片5 um，贴于载玻片上，70℃加热1h，二甲苯脱蜡，依次用100%、90%、70%乙醇复水。使用Opal 7色手册IHC试剂盒(PerkinElmer，NEL811001KT)确认TAM。用AR9缓冲液(pH6.0，PerkinElmer)回收抗原，在烘箱中15min。分别与鼠抗人CD68(Abcam，KP1，1：100)、兔抗人CD80(Abcam，EPR1157(2)，1：200)、兔抗人c-Maf(Abcam，EPR16484，1：200)、兔抗人Macro(Abcam，1：100)和鼠抗人VEGFA(Abcam，VEG-1，1:200)共同孵育1h。加入辣根过氧化物酶偶联二抗(PerkinElmer)，室温孵育10min。用1：100稀释的TSA工作液和1x扩增稀释液(PerkinElmer) 室温孵育10min进行信号放大。多光谱图像由Mantra定量病理工作站(PerkinElmer，CLS140089)采集，放大倍数20。每个患者根据肿瘤大小，总共采取8-15个高倍视野。</p>
+<p><strong>G.</strong>   <strong>量化和统计分析</strong></p>
+<p>\1.   RNA-seq read alignment and transcript assembly[3,4]</p>
+<p>R package (R-3.6.3 https://www.r-project.org/) of &quot;DESeq2&quot; to analyze the differences between mRNA and lncRNA from the normal tissue samples and cancer tissues in the expressing data. The significance analysis with false discovery rate (FDR) &lt; 0.05 and |log2 fold change (FC)| ≥ 2was applied to select lncRNAs and mRNAs for further analysis.</p>
+<p>\2.   Identification of lncRNAs[5]</p>
+<p>​<br>
+Identification of lncRNAs based on de novo assembly of transcripts from RNA-seq data.</p>
+<p>\3.   Survival-related genes generation</p>
+<p>R packages “survival”and “survminer” were applied for the survival analysis.</p>
+<p>\4.   GO and KEGG enrichment analysis</p>
+<p>R package “Cluster Profiler” was used to carry out GeneOntology (GO) enrichment analysis including biological process(BP), cell components(CC) and molecular functions(MF) for the differentially expressed survival-related genes. The same tool is also used for the enrichment analysis of Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis.</p>
+<p>\5.   Construction of the lncRNA/mRNA co-expression network</p>
+<p>To construct the lncRNA/mRNA co-expression network, we calculated the Pearson correlation coeficient and R value to evaluate lncRNA-mRNA correlation.</p>
+<p>\6.   Feature Selection by LASSO analysis</p>
+<p>LASSO is a machine learning algorithm in which both variable selection and regularization occur</p>
+<p>simultaneously. This model uses a penalty to shrink regression coeficients toward zero, a number of variables will be eliminated because their coeficients will shrink to exactly zero. In the present study, the survival-related lncRNAs and mRNAs identified were included in the LASSO regression analysis by using the R package “glmnet”, and the penalty parameter “lambda” was selected to choose the best model based on leave-one-out crossvalidation, which is more suitable than tenfold cross-validation for a smaller number of samples. Finally, we extracted variables with nonzero coeficients and their corresponding coeficients.</p>
+<p>\7.   Multi Cox proportional regression analysis and stepwise Cox</p>
+<p>Combined with the overall survival rate of cancer patients in TCGA, the R package “survival” was used to perform multivariate COX regression analysis and stepwise COX multivariate regression analysis on the lncRNAs and mRNAs selected by LASSO to obtain lncRNAs and mRNAs (p value &lt; 0.05).</p>
+<p>\8.   TME Cell type enrichment abundance analysis between high-risk and low-risk groups</p>
+<p>Components of the TME in high-risk and low-risk cancer samples from the TCGA cohort were assessed by applying xCell web tool (http://xcell.ucsf.edu/).</p>
+<p>\9.   Construction of a ceRNA Network</p>
+<p>MiRanda is an information resource for experimentally validated miRNA-target interactions. The lncRNA-miRNA interactions were predicted with the LncBase Predicted.The Pearson correlation coeficient (PCC) for miRNA-mRNA and miRNA-lncRNA was calculated using paired miRNA, mRNA, and lncRNA expression profile data.</p>
+<p>\10.  Transcriptome deconvolution of the TIME[6]</p>
+<p>The abundance of infiltrating immune cell populations in the TIME was estimated by deconvolution methods using the CIBERSORT with LM22 signature matrix. The fraction of stromal and immune cells in the tumor samples was calculated by the single-sample geneset enrichment analysis (ssGSEA) using ESTIMATE.</p>
+<p>\11.  Identification of lncRNA modifiers of tumor-infiltrating immune cells</p>
+<p>lncRNA expression profiles of TCGA pan-cancer cases were obtained based on the lncRNA annotation of the GENCODE project. lncRNA modifiers of tumor-infiltrating immune cells (TII-lncRNAs) were identified using a systems immunology framework as follows: (i) All lncRNAs were ranked based on their co-expression relationship with immune marker genes, and lncRNAs with a significantly higher Pearson correlation coefficient (PCC) of 0.3 and P &lt; 0.05 were considered as immune generelated lncRNAs; (ii) these immune gene-related lncRNAs were ranked based on the correlation between their expression and the abundance of a given infiltrating immune cell population, as calculated by PCC, and those with a significantly higher PCC were considered as candidate TII-lncRNAs; (iii) samples were classified into high and low immune infiltration groups using the top and bottom quartiles for a given immune cell population. Candidate TII-lncRNAs that were significantly differentially expressed between tumors with a high and low immune infiltration were defined as TII-lncRNAs.</p>
+<p>\12.  Computational index of cancer-related events and immunomodulation</p>
+<p>To quantify the role and dynamics of cancer in each patient, genes were obtained from a previous study, and the EMT score was calculated using the Student’s t-test score between epithelial cell marker genes and the expression of mesenchymal cell marker genes. To characterize the occurrence of immune-mediated tissue-specific destruction, the Immunologic Constant of Rejection (ICR) score was calculated using the mean of the normalized log2 transformed expression values of 20 ICR signature genes from Roeland’s study. To quantify the immune effector activity in solid tumors, the cytolytic activity (CYT) score was calculated using the geometric mean of two key cytolytic effectors, granzyme A, and perforin, in each patient.</p>
+<p>\13.  Development of TII-lncRNA-derived immune state index (TISI)</p>
+<p>Samples with a higher TISI exhibited a low-affinity immune phenotype, whereas a lower TISI reflected a high-affinity immune phenotype.</p>
+<p>\14.  Enrichment analysis of functional genesets</p>
+<p>Single-sample Gene Set Enrichment Analysis (ssGSEA) was performed to calculate the enrichment score (ES) of each patient using R package‘GSVA’ and identify up- or downregulated interested genesets or pathways in different subtypes within each tumor type. The immunologic signature and hallmark genesets were obtained from the Molecular Signatures Database (MSigDB, V7.2).</p>
+<p>\15.  Statistical analysis</p>
+<p>Consensus clustering analysis was performed on the R package‘ConsensusClusterPlus’ using the K-means method and Euclidean distances to identify the optimum number of clusters in pan-cancer based on the expression pattern of TII-lncRNAs. Univariate and multivariate Cox proportional hazards regression models were used to assess the association between the TISI and overall survival with/without clinical variables. The hazard ratio (HR) and 95% confidence interval (CI) were calculated. Two-sided Wilcoxon rank-sum tests were used to compare two groups. The Kaplan–Meier method and log-rank test were conducted to compare survival differences between two tumor groups. Receiver operating characteristic (ROC) curves were used to evaluate the predictive performance for the response to immunotherapy, and the area under the curve (AUC) was calculated. All statistical analysis was performed using R/Bioconductor (version 3.6.1).</p>
+<p>1.3　LncRNA的命名</p>
+<p>lncRNA的命名目前没有统一的规则，但为了让lncRNA的命名具有唯一性、准确性并最大程度上反映其功能，雨果基因命名委员会（HGNC，唯一的制定人类基因命名标准的官方授权机构）提供了一个命名指导指南，以供参考。参考文献：A short guide to long non-coding RNA gene nomenclature。</p>
+<p>作者在发表新lncRNA时，可先获取HGNC的认可，如果作者发布的名字已在其他地方使用过，HGNC将会指定一个新名字供作者选择。lncRNA的名字应是描述基因的缩写，便于人们理解名字的含义。如BANCR就是BRAF-activatednon-proteincoding RNA的缩写。</p>
+<p>功能性转录假基因在命名时应保留它们假基因名称且不应改变其基于功能的名称。为了方便搜索，这个功能应加在名字的最后。eg: PTENP1 是“phosphatase and tensin homolog pseudogene 1 (functional)”。对于未知功能的lncRNA应依据基因组上下游来命名。如果有一个很接近的蛋白编码基因，lncRNA的名字应该以这个编码基因名字开始，再加后缀即可。</p>
+<p>后缀的分类：</p>
+<table>
+<thead>
+<tr>
+<th>反义（antisense，AS）</th>
+<th>eg:  BACE1-AS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内含子(intronic，IT）</td>
+<td>eg:  SPRY4-IT1</td>
+</tr>
+<tr>
+<td>重叠（overlapping，OT）</td>
+<td>eg:  OSX2-OT</td>
+</tr>
+<tr>
+<td>长链基因间lncRNA（Longintergenic  lncRNAs，lincRNAs）</td>
+<td>eg:  LINC00485</td>
+</tr>
+<tr>
+<td>编码基因头碰头，拥有双向启动子，反义上游（Antisense  upstream，AU）</td>
+<td>eg:GENE2-AU1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2</strong>   <strong>lncRNA****表达调控</strong></p>
+<p>lncRNA在免疫细胞或肿瘤中的靶向调控途径<a href="%E5%9B%BE2">7</a>：</p>
+<p>(1)将RNA不稳定元件(RDES)整合到基因组中，通过靶向特定的基因组位点来抑制lncRNA，产生类似于基因敲除的效果。</p>
+<p>(2)通过影响编码lncRNA的启动子活性来调节lncRNA的转录。</p>
+<p>(3)LncRNA转录本失稳或降解。与其他基因类似，特定的siRNA与相关蛋白形成RNA诱导的沉默复合物(RISC)，并基于互补性与特定的靶序列结合，导致靶lncRNA降解。</p>
+<p>(4)小分子抑制剂结合特定位点阻断lncRNA与调控因子之间的相互作用。</p>
+<p>(5)适配体可以特异性地与靶LncRNA的结构域结合，并阻止其与原伴侣结合，从而导致LncRNA的功能破坏。</p>
+<p>(6)针对lncRNA的基因编辑，如CRISPR-Cas9技术。</p>
+<p>​<br>
+(7)人工合成的lncRNA模拟物。引入细胞以增加关键的lncRNA的水平。</p>
+<p>图 2 调节lncRNA水平的七种方法[7]</p>
+<p><strong>3</strong>   <strong>免疫治疗策略</strong></p>
+<p>PD-1、PDL-1和CTLA-4抗体等多种药物取得了可喜的治疗效果。然而免疫治疗的多种耐药机制在很大程度上限制了药物的有效性（表1）。研究表明，lncRNA在肿瘤的耐药性和免疫治疗抵抗中起着至关重要的作用[8]。lncRNA通过在不同阶段诱导免疫逃逸，包括抗原呈递的丧失或减弱、PD-L1表达上调、T细胞活性减弱、以及募集肿瘤环境中的MDSCs和Tregs（图3）。发掘lncRNA在肿瘤免疫调节中作用可用于开发靶向lncRNA的免疫治疗抗体或化疗药物，以最大限度地发挥抗肿瘤药物的疗效，克服肿瘤的耐药性和抵抗性，这将成为未来肿瘤治疗新策略和新方法。</p>
+<p>然而，lncRNA的免疫治疗仍然存在一些不确定性，如是否会影响肿瘤免疫环境中的其他细胞成分和脱靶后的安全问题。其次，lncRNA并非简单的线性结构，其二级甚至三级结构可能导致无法有效干预。第三， lncRNA在不同物种之间的保守性很差，体外实验和动物模型开发的有效疗法可能难以应用于人类。第四，如何选择合适的lncRNA作为药物，以及如何确保lncRNA在复杂的调控网络下不会引起的副作用等问题仍然存在。</p>
+<p>到目前为止，还没有关于lncRNA单独或与其他药物联合治疗癌症的临床试验。目前对lncRNA在肿瘤治疗中的研究主要集中在分子细胞学水平和小鼠肿瘤模型水平。</p>
+<p>表 1 LncRNAs对不同癌症PD-1/PD-L1的影响[9]</p>
+<table>
+<thead>
+<tr>
+<th><strong>LncRNA</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>癌症</strong></th>
+<th><strong>机制</strong></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AFAP1-AS1</td>
+<td>regulating the immune  response</td>
+<td>nasopharyngeal carcinoma</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NKX2-1-AS1</td>
+<td>regulating the  expression of immune markers</td>
+<td>lung cancer</td>
+<td>inhibiting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>UCA1</td>
+<td>regulating the  expression of immune markers</td>
+<td>bladder cancer</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SNHG20</td>
+<td>regulating the  expression of immune markers</td>
+<td>esophageal  squamous cell carcinoma</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MALAT1</td>
+<td>regulating the  expression of immune markers</td>
+<td>diffuse large B  cell lymphoma</td>
+<td>inhibiting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>图 3 免疫相关lncRNA可能通过多种机制在不同水平调节免疫成分和微环境，从而在免疫治疗耐药中发挥重要作用。抗原递呈的丧失或减弱、肿瘤PD-L1上调、T细胞功能障碍以及免疫抑制性细胞的积累导致免疫治疗的抵抗作用。总之，免疫相关 lncRNA 可能导致肿瘤细胞抵抗免疫治疗[8]。</p>
+<p><strong>4</strong>   <strong>一般研究模式</strong></p>
+<p>图 4 基因的研究模式</p>
+<p><strong>5</strong>   <strong>数据库信息</strong></p>
+<p>表 2  LncRNA数据库汇总</p>
+<table>
+<thead>
+<tr>
+<th><strong>数据库</strong></th>
+<th><strong>简介</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TANRIC</td>
+<td>网址：http://bioinformatics.mdanderson.org/main/TANRIC:Overview   种属信息：人类   功能：TANRIC是独立验证候选 lncRNA 的一大神器，是癌症非编码RNA的地图集。除了包括TCGA的数据外，还对 Cancer Cell  Line Encyclopedia（CCLE）里各种细胞系的数据进行了深度的分析和整合。一共包括20种癌症，超过8000个样品。TANRIC是一个交互式的数据分析和可视化平台，含有三大类的数据，包括lncRNA注释信息，RNA-Seq数据以及profiling数据。TANRIC有两大功能查询和分析 lncRNA。提供每个样品的表达量信息，包括正常的组织和癌组织；计算 lncRNA 表达量与哪些临床指标相关、预后相关性；计算候选lncRNA 和每个编码基因、microRNA之间的相关系数；还提供不同肿瘤表达水平的 Heatmap 图展示功能。</td>
+<td></td>
+</tr>
+<tr>
+<td>LNCediting</td>
+<td>网址：http://bioinfo.life.hust.edu.cn/LNCediting/   种属信息：人、猴、鼠、果蝇   功能：RNA编辑是一种广泛的转录后机制，可以对RNA转录本中的特定核苷酸序列进行离散的改变。RNA编辑事件可导致mRNA的误义密码子改变，mRNA中选择性剪接的调节，或在小的非编码RNA（如miRNA）中调控RNA及其结合位点的修改。最近的研究开发了计算方法，可以从不同物种的下一代测序数据中准确检测出200多万份A-to-I RNA编辑。然而，绝大多数这些RNA位点位于基因组的非编码区，具有未知的功能相关性。LNCediting为长链非编码RNA (lncRNAs)的RNA编辑功能预测提供了全面的资源。</td>
+<td></td>
+</tr>
+<tr>
+<td>starbase 数据库</td>
+<td>网址：http://starbase.sysu.edu.cn/   种属信息：包括多个物种，可选择人类信息   功能：多种功能且操作简便易懂。由中山大学团队开发，用来研究由大规模 CLIP-Seq  (HITS-CLIP, PAR-CLIP, iCLIP, CLASH) 产生的lncRNA, miRNA, ceRNA, RNA-bingding protein 和mRNA互作网络的数据库，其中的数据包含了14中tumor samples，超过了6000个样本，可以选择多个数据库进行协同预测，可以选择CLIP-Seq数据的等级。starBase可以用来研究protein-lncRNA, miRNA-lncRNA, ceRNA networks等。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRBase</td>
+<td>网址：http://bicresources.jcbose.ac.in/zhumur/lncrbase/   种属信息：人和小鼠   功能：该数据库目前共有216562个lncRNA转录本条目，包含lncRNA转录本基本特征、基因组位置，与lncRNA相关的重复元件、印迹基因、启动子信息等。可以搜索映射到特定lncRNA的微阵列探针以及相关的疾病信息，也可以搜索组织中的lncRNA表达。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncipedia</td>
+<td>网址：https://lncipedia.org/   种属信息：人   功能：能够对目前大部分已知的lncRNA进行相关查询。对于一个只知道名字的lncRNA通过这个数据库能够知道它的序列信息、转录本信息、同源性、具体的位点/编码蛋白的可能性、目前相关的文章、以及它的在不同数据的不同的名字。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNASNP</td>
+<td>网址：http://bioinfo.life.hust.edu.cn/lncRNASNP#!/   种属信息：人、小鼠   功能：长链非编码RNA（lncRNAs）正在成为调控各种细胞过程和疾病的关键因素。LncRNASNP是一个提供人/小鼠lncRNAs单核苷酸多态性（SNPs）综合资源的数据库。它包含lncRNA中的SNP，SNP对lncRNA结构的影响，lncRNA的突变和lncRNA:miRNA结合。</td>
+<td></td>
+</tr>
+<tr>
+<td>lnCAR</td>
+<td>网址：https://lncar.renlab.org/explorer   种属信息：人和小鼠   功能：中山大学肿瘤防治中心的任间教授和左志向副研究员合作在2019年Cancer Research发表的，这个数据库主要是整理来自GEO数据库中的10大类癌症大概60000个样本的芯片表达数据以及13000个样本的临床资料，可以使得科学家快速查阅感兴趣lncRNA在不同癌症、不同条件的差异表达情况以及生存预后信息。数据网站可视化很好，结果可下载，维护的很好，是一个很值得用的网站</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNome</td>
+<td>网址：http://genome.igib.res.in/lncRNome   种属信息：人类   功能：超过18000转录本目前已作为lncRNA标注，覆盖先前注释非编码转录本，包括大型基因间非编码RNA，反义RNA和加工的假基因。但在提供稳定的注释，交叉引用和生物相关的信息资源方面有显著的差距。由印度CSIR基因组和整合生物学研究所开发的lncRNome，旨在填补这一空白，他们通过把生物显著性的各种各样的信息注释整合到一个全面的知识库。</td>
+<td></td>
+</tr>
+<tr>
+<td>Cancer LncRNA  Census</td>
+<td>网址：https://www.gold-lab.org/clc   种属信息：人   Cancer LncRNA Census是一项持续的工作，旨在鉴定和分类与癌症有关的lncRNA基因。包含在CLC中的lncRNA必须（1）与癌症有因果关系，并且（2）必须由GENCODE注释。CLC不仅包括来自文献资源的lncRNA，而且还包括来自诱变和CRISPRi筛选的候选癌症lncRNA。CLC提供了高可信度癌症lncRNA的数据集， 诱变图谱是鉴定lncRNA在肿瘤发生中深层保守作用的新颖手段。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncLocator</td>
+<td>网址：http://www.csbio.sjtu.edu.cn/bioinf/lncLocator/   种属信息：人、鼠   功能：lncLocator用于预测lncRNA亚细胞定位。为了充分利用lncRNA序列信息，开发者同时采用无监督深度模型生成的k-mer特征和高级抽象特征，将这两种特征分别输入支持向量机（SVM）和随机森林（RF），构造了四个分类器。然后采用堆叠集成策略对四个分类器进行组合，得到最终的预测结果。目前的lncLocator可以预测5个lncRNA的亚细胞定位，包括细胞质、细胞核、细胞质、核糖体和外泌体，在构建的基准数据集上的总体准确率为0.61。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRMap</td>
+<td>网址：http://lncrnamap.mbc.nctu.edu.tw/php/index.php   种属信息：人类   功能：首先鉴定了lncRNAs并提供了lncRNAs及其同源蛋白编码基因的表达谱。其次，提供了lncRNAs的miRNA调节因子及其同源基因。第三，检测了lncRNA衍生的内源性siRNAs（esiRNAs），并在人类基因组中构建了lncRNA衍生esiRNAs及其相互作用的基因靶点。最后，介绍了lncRNAs之间的邻近基因。</td>
+<td></td>
+</tr>
+<tr>
+<td>oncolnc</td>
+<td>网址：http://starbase.sysu.edu.cn/   种属信息：人   功能：原始数据来源于TCGA数据库的23种肿瘤，主要用于检索lncRNA的表达情况，尤其是直接给出目的lncRNA的cox 回归结果，包含cox相关系数，P值，表达中位数、平均值，还可绘制生存曲线，尤其可通过选择表达的百分位数来进行。并且，分析结果的生存数据也可下载excel，来进一步进行自己绘制生存曲线图。</td>
+<td></td>
+</tr>
+<tr>
+<td>ChIPBase</td>
+<td>网址：https://www.chipbase.co.za/   种属信息：人类   功能：提供长链非编码RNA的表达图谱和转录调控的全面鉴定和注释。整合了高通量的RNA-seq鉴定的lncRNA及其表达图谱和ChIP-Seq实验技术鉴定的转录因子结合位点。这个数据库主要是对于一些lncRNA的表达及lncRNA与转录因子之间的关系的一个注释数据库。主要可以了解与转录因子相关的lncRNA的结合情况。需要注意的是，这个网站只能输入GeneSymbol，其实是lncRNA的转录名，一般是“RP11-XXXX”。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncBook</td>
+<td>网址：http://bigd.big.ac.cn/lncbook/index   种属信息：人类   功能：该数据库中包含以下8种lncRNA相关信息：LncRNAs、Featured LncRNAs、Function、Diseases、Expression、Methylation、Variation、Interaction。①LncRNAs提供lncRNA的ID，染色体位置，长度，外显子个数，类型等基本信息；②Featured LncRNAs只包含来自lncRNAWiki数据库中的有功能注释和文献支持的lncRNA；③Function给出lncRNA的生物学功能注释和参与的生物学过程；④Diseases给出lncRNA相关的疾病信息，包括实验验证和预测两种；⑤Expression通过分析HPA和GTEx两个公共项目的转录组数据，给出lncRNA在各个组织中的FPKM表达值；⑥Methylation通过分析TCGA和ENCODE数据库的数据，给出lncRNA相关的甲基化信息；⑦Variation将dbSNP数据库中的SNP位点映射到lncRNA上，同时提供来自COSMIC和ClinVar数据库的注释信息，以及1000G中的频率信息；⑧Interaction采用targetScan和miRanda两款软件预测lncRNA与miRNA的相互作用，取交集作为最终的结果，实验证据主要来自starbase数据库。</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc2Meth</td>
+<td>网址：http://bio-bigdata.hrbmu.edu.cn/Lnc2Meth/index.jsp   种属信息：人类   功能：主要研究lncRNA上的DNA甲基化位点，提供疾病为主和转录为主的两种检索模式；可区分不同甲基化，高甲基化、低甲基化、甲基化和去甲基化六种模式。对于lncRNA上DNA甲基化模式分为三种：Cis-methylated lncRNA，Trans-Methylation Due to LncRNAs(TMDL)和Trans-Methylation Regulated LncRNA(TMRL)彩蛋功能：对450芯片进行重注释。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNADisease  v2.0</td>
+<td>网址：http://www.rnanut.net/lncrnadisease/   种属信息：人、小鼠、大鼠   功能：LncRNADisease  v2.0基于文献与相关数据库，整合和收集了有实验和/或计算支持的lncRNA-疾病的关联信息，利用各种证据资源来评估特定lncRNA-疾病关联的可靠性，并提供每个lncRNA-疾病关联的置信度得分。数据库记录了超过20万个lncRNA-疾病关联，是研究lncRNA潜在临床应用的宝贵资源。该数据库还提供lncRNA，mRNA和miRNA之间的转录调控关系。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncACTdb</td>
+<td>网址：http://www.bio-bigdata.net/LncACTdb/index.html   种属信息：人在内20多个物种   功能：LncACTdb2.0是一个更新和显著扩展的数据库,提供了不同物种和疾病相关 ceRNA的综合信 息,成为研究 ceRNAs的重要网络资源。具体包括:(1)从超过5000篇已发表文献中人工筛选 到2663篇具有实验 ce数据支持的 RNA信息(2)将数据库的范围扩大到23个物种和213种疾 病/表型;(3)纳入更多的RNA类型,如环状RNA和假基因;(4)从TCGA数据中鉴定出33种 症类型的候选 IncRNAceRNA相关的互作关系并对其评分;(5)为ceRNA提供存活率、互作网 络和癌症标志的图解信息。</td>
+<td></td>
+</tr>
+<tr>
+<td>NONCODE</td>
+<td>网址：http://www.noncode.org/index.php   种属信息：人类   功能：提供了文献报道的疾病相关的长链非编码RNA的注释。可以输入NCBI的lncRNA名称或者ID，由于这个网站对lncRNA的命名方法是他们网站内部命名的系统，也可以通过lncRNA序列利用Blast的系统，找到lncRNA对应的编号。</td>
+<td></td>
+</tr>
+<tr>
+<td>DIANA tools</td>
+<td>网址：http://carolina.imis.athena-innovation.gr/diana_tools   种属信息：人类   功能：DIANA实验室的重点是在系统分析框架内开发用于解释和归档基因组数据的算法、数据库和工具。目前的重点是对miRNA、lncRNA和蛋白质编码基因的分析及综合模型工作，并整合不同层次的生物学细节数据。DIANA实验室的活动范围包括从深层测序数据分析RNA之间、RNA与蛋白间表达调控，对RNA调控元件和靶点的注释，到对RNA在各种疾病中的作用的解释。</td>
+<td></td>
+</tr>
+<tr>
+<td>GTRD</td>
+<td>网址：http://gtrd.biouml.org   种属：人、小鼠、大鼠、斑马鱼、秀丽隐杆线虫、果蝇、和拟南芥。   功能：主要用作lncRNA转录因子关联分析，通过ChIP-seq 数据库实验鉴定的转录因子结合位点（TFBSs）和转录共激活蛋白。可利用GTRD[7]数据库提供的基因-转录因子关系对以及lncRNA-mRNA的共表达可以构建lncRNA-TF-mRNA的3元调控网络。</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc2Cancer v2.0</td>
+<td>网址：http://www.bio-bigdata.net/lnc2cancer   种属信息：人和小鼠   功能：科学家们越来越重视LncRNA与疾病之间的关联了，Lnc2Cancerv2.0是一个人工整理的专门的关于cirRNA，lcnrna和疾病的数据库，这个数据库包含1.346条记录，包含226种肿瘤亚型，2775条人类的lncrna和743个circrna,这些数据来自超过15000篇发表的文献。这网站也提供了关于一些调控数据的信息，包括mircnra, 转录因子，甲基化信息，增强子等，数据网站可视化很好，结果可下载，维护的很好，是一个很值得用的网站。</td>
+<td></td>
+</tr>
+<tr>
+<td>catRAPID</td>
+<td>网址：http://s.tartaglialab.com/page/catrapid_group   种属：主要基于fasta序列，没区分种属   功能：用来计算蛋白和RNA结合特性的工具，通过整合二级结构、氢键和 范德华力来预测蛋白和RNA的结合可能性。该网站主要有“fragments”、 strength”、“catRAPID omics”、“catRAPID express”、“catRAPID signature”、“catRAPID interactions with large RNAs”，等分析模块。其中，catRAPID omics用于预测某一RNA（或蛋白）的结合蛋白（或RNA），可预测出大量候选</td>
+<td></td>
+</tr>
+<tr>
+<td>LnCeVar</td>
+<td>网址：http://www.bio-bigdata.net/LnCeVar/index.jsp   种属信息：人   功能：这个数据库的来源主要是通过人工整理已经发表的文献或者数据库的高通量测序数据。可以直接检索目的基因，结果包括snp、cnv、manual、somatic-mutation四个部分。此外还支持高级检索，可以看我们研究的lncrna、mrna、mirna、mutaion是否可以形成一个网络，是一个非常高逼格的ceRNA相关的数据库</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA2Target</td>
+<td>网址：http://123.59.132.21/lncrna2target/index.jsp   种属信息：人、鼠   功能：提供从低通量实验或lncRNA敲除或过表达实验后再进行微阵列/ RNA-seq推断的lncRNA-靶标关系的综合资源。用户可以通过该数据库通过搜索lncRNA基因ID或符号来获得lncRNA调控的靶基因，或者通过搜索目标基因ID或符号来获得特定目标基因的调控lncRNA。对于高通量数据，还给出了对应的GEO编号，表达谱数据和差异分析的结果</td>
+<td></td>
+</tr>
+<tr>
+<td>LongTarget</td>
+<td>网址：http://lncrna.smu.edu.cn/show/DNATriplex   种属信息：人和小鼠   功能：该数据库可以预测lncRNA的DNA binding motifs和结合位点。研究人员利用该数据库分析了多个lncRNA，得到了与实验观察和表观遗传标记一致的结果，并且预测结果具有很好的的敏感性和特异性，表明了在全基因组范围内预测多个lncRNA DNA结合motif和位点的可行性。此外，利用该数据库，研究人员还发现lncRNA不仅可以结合启动子区域和CpG位点，还可以结合许多转座因子。是研究lncRNA调控关系的很好的平台</td>
+<td></td>
+</tr>
+<tr>
+<td>LNCat</td>
+<td>网址：http://biocc.hrbmu.edu.cn/LNCat/   种属信息：人   功能：一个基于RNA测序数据集的人类细胞lncRNA定位综合资源。功能如下：（1）LNCat提供了搜索功能，可从13种lncRNA注释资源中浏览lncRNA结构，通过按基因名称，ID或基因组坐标搜索lncRNA来实现所有外显子结构的可视化，从而有助于在这些注释中发现常见（或唯一）外显子结构资源。（2）可视化，从多个角度展示了不同资源之间的比较分析结果，包括基因组信息（外显子数量，基因长度，基因组覆盖率，lncRNA的类别，基因组距离，保守和重复元件），表达，组织特异性，染色质签名和功能。（3）下载。LNCat允许用户以可用的任何注释级别（包括基因级别，转录级别和区域级别）下载每种资源的所有lncRNA注释</td>
+<td></td>
+</tr>
+<tr>
+<td>ExoBCD</td>
+<td>网址：http://www.cuilab.cn/lncrnadisease   种属信息：人   功能：数据库乳腺癌乳腺癌外泌体研究相关的信息。数据库总结了文献数据以及Cancer RNA-Seq  Nexus，GEO，ArrayExpress，Expression Atlas， cBioPortal 等多个数据库数据。目前一共有306（49PBs和257BIMs）个乳腺癌外泌体相关分子，包括lncRNA，miR和mRNA。含有乳腺癌外泌体相关基因功能富集结果及靶标，相关miRNA-mRNA互作网络，文献信息，生存预后，基因列表和功能注释信息</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNome</td>
+<td>网站:http://genome.igib.res.in/lncRNome   种属信息：人   功能:超过18000转录本目前已作为lncRNA标注，覆盖先前注释非编码转录本，包括大型基因间非编码RNA，反义RNA和加工的假基因。但在提供稳定的注释，交叉引用和生物相关的信息资源方面有显著的差距。由印度CSIR基因组和整合生物学研究所开发的lncRNome，旨在填补这一空白，他们通过把生物显著性的各种各样的信息注释整合到一个全面的知识库。</td>
+<td></td>
+</tr>
+<tr>
+<td>RNALocate</td>
+<td>网址：http://www.rna-society.org/rnalocate/   种属信息：人和小鼠   功能：RNALocate旨在为RNA亚细胞定位的有效操作、浏览和分析提供一个资源。它提供了一个方便的用户友好界面来查询、浏览和可视化这些RNA亚细胞地位的详细信息。RNALocate将有助于阐明整个rna相关亚细胞定位，并发展新的预测方法。目前版本包括了19万多个与RNA相关的亚细胞定位条目，并有实验和预测证据，涉及65个物种的10.5万多个RNA和44个亚细胞定位，主要包括智人、小鼠等。</td>
+<td></td>
+</tr>
+<tr>
+<td>AnnoLnc2</td>
+<td>网址：http://annolnc.gao-lab.org/index.php   种属信息：人、鼠   功能：该数据库提供丰富的lncRNA的注释功能，注释内容涵盖了序列和结构、表达和调控、功能和相互作用、以及演化和遗传关联，为研究长非编码RNA的功能及其作用机制提供了高效、全面的分析平台，并为后续的生物学研究提供了重要的线索。例如，演化模块的注释结果可以揭示长非编码RNA是否具有保守的功能；亚细胞定位模块的注释结果可以揭示它们在何处发挥功能；功能富集模块的注释结果可以揭示它们发挥怎样的功能；miRNA调控和蛋白相互作用模块的注释结果可以揭示潜在的功能机制等。</td>
+<td></td>
+</tr>
+<tr>
+<td>RNAcentral</td>
+<td>整合了多个数据库，并且提供4个重要的功能： text search, sequence similarity search, bulk  downloads, and programmatic data access.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>参考文献：</strong></p>
+<p>[1] Zhang L, Li Z, Skrzypczynska K M, et al. Single-Cell Analyses Inform Mechanisms of Myeloid-Targeted Therapies in Colon Cancer[J]. Cell, 2020, 181(2): 442-459.e29.</p>
+<p>[2] Cheng S, Li Z, Gao R, et al. A pan-cancer single-cell transcriptional atlas of tumor infiltrating myeloid cells[J]. Cell, 2021, 184(3): 792-809.e23.</p>
+<p>[3] Zhou M, Zhang Z, Bao S, et al. Computational recognition of lncRNA signature of tumor-infiltrating B lymphocytes with potential implications in prognosis and immunotherapy of bladder cancer[J]. Briefings in Bioinformatics, 2020, 22(3).</p>
+<p>[4] Wei J, Dou Q, Ba F, et al. Development a Prognostic Model Integrating lncRNA/mRNA novel Biomarkers Identified by Bioinformatics Analysis and Experiments in Breast Cancer[J], 2021.</p>
+<p>[5] Brazão T F, Johnson J S, Müller J, et al. Long noncoding RNAs in B-cell development and activation[J]. Blood, The Journal of the American Society of Hematology, 2016, 128(7): e10-e19.</p>
+<p>[6] Zhang Z, Yan C, Li K, et al. Pan-cancer characterization of lncRNA modifiers of immune microenvironment reveals clinically distinct de novo tumor subtypes[J]. npj Genomic Medicine, 2021, 6(1): 1-11.</p>
+<p>[7] Zhang Y, Liu Q, Liao Q. Long noncoding RNA: a dazzling dancer in tumor immune microenvironment[J]. Journal of Experimental &amp; Clinical Cancer Research, 2020, 39(1): 231.</p>
+<p>[8] Zhou Y, Zhu Y, Xie Y, et al. The Role of Long Non-coding RNAs in Immunotherapy Resistance[J]. Frontiers in Oncology, 2019, 9(1292).</p>
+<p>[9] Han Y, Liu D, Li L. PD-1/PD-L1 pathway: current researches in cancer[J]. American journal of cancer research, 2020, 10(3): 727-742.</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://lumluminous.github.io/blog/post/long-non-coding-rna-and-tumor-immune-infiltration/">
+              <h3 class="post-title">
+                Long non-coding RNA and tumor immune infiltration
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://lumluminous.github.io/blog/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

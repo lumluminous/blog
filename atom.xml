@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lumluminous.github.io/blog</id>
+    <title>Lum&apos;s Notes</title>
+    <updated>2022-07-23T06:54:33.727Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lumluminous.github.io/blog"/>
+    <link rel="self" href="https://lumluminous.github.io/blog/atom.xml"/>
+    <logo>https://lumluminous.github.io/blog/images/avatar.png</logo>
+    <icon>https://lumluminous.github.io/blog/favicon.ico</icon>
+    <rights>All rights reserved 2022, Lum&apos;s Notes</rights>
+    <entry>
+        <title type="html"><![CDATA[IL-12 nanochaperone-engineered CAR T cell for robust tumor-immunotherapy]]></title>
+        <id>https://lumluminous.github.io/blog/post/il-12-nanochaperone-engineered-car-t-cell-for-robust-tumor-immunotherapy/</id>
+        <link href="https://lumluminous.github.io/blog/post/il-12-nanochaperone-engineered-car-t-cell-for-robust-tumor-immunotherapy/">
+        </link>
+        <updated>2022-07-21T11:10:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Biomaterials,2022.https://doi.org/10.1016/j.biomaterials.2021.121341.</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/lumluminous/Picbed_Picgo/main/20220721192407.png" alt="" loading="lazy"></figure>
+<h3 id="abstract">Abstract</h3>
+<p>作者开发了一种IL-12 纳米激动剂结合工程化的CAR T 细胞的生物杂交体(INS-CART)，其中，IL-12纳米佐剂能够有效地结合CART 细胞，且IL-12能够在肿瘤抗原的刺激响应下有效地释放，释放出的IL-12能够进一步促进CCL5、CCL2及CXCL10 的分泌，进一步在肿瘤微环境中招募CD8+的CAR T 细胞。作者发现，这种策略可以显著地提高CAR T 细胞对实体肿瘤的抗肿瘤能力，并最大限度地减少了副作用。这种INS-CAR T 生物杂交体，可以成为一种高效、安全的抗肿瘤免疫治疗的良好工具。</p>
+<h4 id="research-topic"><strong>Research Topic</strong></h4>
+<p>具有免疫应答的IL-12纳米粒子结合工程化CAR T 细胞 (INS-CAR T)及增强实体瘤的免疫治疗</p>
+<h4 id="background"><strong>Background</strong></h4>
+<p>（1）物理屏障和促癌因子是限制CAR T疗法的主要因素；</p>
+<p>（2）白细胞介素IL-12 是能够引发免疫反应的关键佐剂；</p>
+<p>（3）然而，临床研究中IL-12的全身给药会引发促炎反应和毒性，同时体内分泌的IL-12水平也难以实现准确控制，难以直接利用白细胞介素IL-12进行肿瘤治疗；</p>
+<p>（4）需要设计一种可控的策略将IL-12高效递送到肿瘤微环境中。</p>
+<h4 id="methodology"><strong>Methodology</strong></h4>
+<h5 id="制备">制备：</h5>
+<p>设计了负载有IL-12 (INS) 激动剂的HSA 纳米颗粒</p>
+<h5 id="抗肿瘤能力">抗肿瘤能力：</h5>
+<ol>
+<li>荧光定量分析：CAR T 细胞表面的氧化还原硫醇破坏 INS纳米粒子与CAR T细胞的结合从而释放 IL-12</li>
+<li>SEM表征：CAR T 细胞能够通过肿瘤抗原刺激响应来释放INS 纳米粒子</li>
+<li>Raji肿瘤细胞3D球体、流式、ELISA：研究肿瘤浸润和细胞毒性</li>
+<li>Raji荷瘤NOD/SCID 小鼠：荷瘤小鼠在肿瘤接种8天后分别静脉注射游离CAR T细胞、IL-12 + CAR T细胞和INS-CAR T细胞。使用体内生物发光成像分析监测每只小鼠的肿瘤生长情况。</li>
+</ol>
+<h4 id="outcomes-and-value"><strong>Outcomes and Value</strong></h4>
+<p>作者研究了一种IL-12纳米离子结合CAR T细胞 (INS-CAR T) 的生物杂交体工程策略。INS-CAR T生物杂化体作为一种新型CAR T细胞治疗策略，具有出色的抗肿瘤功效和生物安全性。通过使用负载IL-12的纳米粒子和肿瘤抗原响应性，INS-CAR T 生物杂交体可以诱导强大且安全的抗肿瘤免疫，包括抗肿瘤因子的高表达、选择性增殖、有效募集和CAR T细胞的深度渗透。</p>
+<h4 id="未来课题">未来课题</h4>
+<p>新材料，纳米佐剂结合CAR-T的细胞疗法</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BATF and IRF4 cooperate to counter exhaustion in tumor-infiltrating CAR T cells]]></title>
+        <id>https://lumluminous.github.io/blog/post/batf-and-irf4-cooperate-to-counter-exhaustion-in-tumor-infiltrating-car-t-cells/</id>
+        <link href="https://lumluminous.github.io/blog/post/batf-and-irf4-cooperate-to-counter-exhaustion-in-tumor-infiltrating-car-t-cells/">
+        </link>
+        <updated>2022-07-21T10:50:16.000Z</updated>
+        <content type="html"><![CDATA[<p>Seo, Hyungseok, et al.Nature Immunology (2021): 1-13. PMID: 34282330.</p>
+<h3 id="abstract">Abstract</h3>
+<p>转录因子NFAT (nuclear factor of activated T cells)和AP-1 (activator protein 1; Fos-Jun) 协同促进T细胞的效应功能，但在AP-1缺失情况下，NFAT却能负反馈调控T细胞低反应性/耗竭（hyporesponsiveness/exhaustion）。</p>
+<p>美国加州大学圣地亚哥分校Patrick G. Hogan课题组发现转录因子BATF和IRF4能协同减缓小鼠肿瘤模型中的T细胞耗竭。</p>
+<p>在表达嵌合抗原受体 (CAR) 的CD8+ T细胞中过表达 BATF能促进肿瘤浸润性CAR-T细胞的存活和扩增、增加效应细胞因子的产生、降低抑制性受体和耗竭相关转录因子TOX的表达，并促进可控制肿瘤复发的长寿记忆T细胞的产生。</p>
+<p>此外，作者还发现表达BATF变体（不与IRF4互作）的CAR-T细胞不能在肿瘤内存活，无法有效地抑制肿瘤生长。</p>
+<p>上述结果均说明，CAR-T细胞的效应作用依赖于BATF-IRF间的相互作用。因此，BATF可以通过改变CAR-T细胞的表型和转录谱、增加效应子功能来改善CAR-T细胞的抗肿瘤反应。</p>
+<h4 id="research-topic"><strong>Research Topic</strong></h4>
+<p>阻断T细胞的耗竭</p>
+<h4 id="background"><strong>Background</strong></h4>
+<p>（1）转录因子NFAT参与CD8+ T细胞的效应和耗竭反应，并发挥重要作用；</p>
+<p>（2）NFAT下游的NRA4和TOX参与T细胞耗竭基因的染色质重构，敲除TOX或NRA4能增强抗肿瘤免疫；</p>
+<p>（3）与NFAT类似，转录因子BATF也参与T细胞的效应和耗竭反应。</p>
+<h4 id="methodology"><strong>Methodology</strong></h4>
+<h5 id="batf过表达car-t细胞功能表征">BATF过表达CAR-T细胞功能表征：</h5>
+<p>肿瘤体积，生存期，流式测效应指标和抑制指标，流式确定表型</p>
+<h5 id="机制研究">机制研究：</h5>
+<p>构建不能和IRF4互作的BATF突变体，重复第一部分的功能研究，引入His55Gln/Lys63Asp/Glu77Lys（HKE）突变体（即过表达HKE）来抑制BATF和IRF4的相互作用。</p>
+<h5 id="蛋白-蛋白-蛋白-dna互作研究">蛋白-蛋白、蛋白-DNA互作研究：</h5>
+<p>1.转录水平：过表达之后的转录谱、ChIP-seq</p>
+<p>2.机制水平：新的局部染色质可进入位点，提高了染色质的可进入性</p>
+<h4 id="outcomes-and-value"><strong>Outcomes and Value</strong></h4>
+<p>1.BATF过表达的CAR-T细胞具有长期的肿瘤抑制效应</p>
+<ol start="2">
+<li>过表达BATF能使肿瘤内浸润的CAR-T细胞远离耗竭</li>
+<li>BATF-IRF4相互作用参与抗肿瘤反应</li>
+<li><strong>特殊的转录谱</strong>：BATF过表达的肿瘤内浸润CAR-T细胞<em>Tox</em> mRNA表达减少，提示T细胞耗竭通路被阻断。</li>
+<li>在实体瘤中，在CAR-T细胞中过表达BATF能阻断其耗竭，并增强其增殖能力和细胞毒性，形成记忆细胞，提供长期的肿瘤治疗效果。</li>
+</ol>
+<h4 id="未来课题">未来课题</h4>
+<p>BATF表达量在T细胞的效应与耗竭状态中起什么作用</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3D-organoid culture supports differentiation of human CAR+ iPSCs into highly functional CAR T cells]]></title>
+        <id>https://lumluminous.github.io/blog/post/3d-organoid-culture-supports-differentiation-of-human-car-ipscs-into-highly-functional-car-t-cells/</id>
+        <link href="https://lumluminous.github.io/blog/post/3d-organoid-culture-supports-differentiation-of-human-car-ipscs-into-highly-functional-car-t-cells/">
+        </link>
+        <updated>2022-07-21T09:17:23.000Z</updated>
+        <content type="html"><![CDATA[<p>Wang, Zhiqiang, et al.Cell stem cell (2022). PMID: 35395190.</p>
+<h3 id="abstract">Abstract</h3>
+<p>本研究通过开发<strong>三维类器官培养体系</strong>，成功开发了从<strong>iPSCs产生高活性CAR T细胞</strong>的高效新策略</p>
+<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5Cmatengyun%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220721171936604.png" alt="image-20220721171936604" loading="lazy"></figure>
+<h4 id="research-topic"><strong>Research Topic</strong></h4>
+<p>开发有效的CAR-T制作工艺是目前CAR-T临床转化的关键问题。结合iPSCs工程技术和3D-类器官培养体系，可制备出具有更强功能的CAR T细胞。</p>
+<h4 id="background"><strong>Background</strong></h4>
+<p>（1）先前已证实iPSC细胞可诱导分化为具有γδ T细胞特征和部分CAR T细胞功能的细胞。</p>
+<p>（2）已有成功使用3D-类器官培养系统诱导造血干细胞和胚胎干细胞转化为功能成熟T细胞的研究报道。（3）进一步可考虑通过3D-类器官培养系统诱导iPSC生成功能成熟的CAR T细胞。</p>
+<h4 id="methodology"><strong>Methodology</strong></h4>
+<figure data-type="image" tabindex="2"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1934590922000601-fx1_lrg.jpg" alt="img" loading="lazy"></figure>
+<h5 id="构建">构建：</h5>
+<p>3D类器官培养体系诱导iPSC分化扩增位CAR-T：用CD19 CAR的 慢病毒转导iPSC，在基于胚胎和iPSC的人工胸腺类器官（PSC-ATO）系统诱导CD19 CAR 的iPSC分化为T细胞(需要5-7周)。</p>
+<p>使用改良的快速扩增法（REM），实验组和Mock组PSC-ATO分化的iPSC T细胞大约在2周内实现了75倍的扩增。最终，从106个CAR+iPSC细胞中可生产出<strong>6×109个CD19-CAR T细胞</strong>，说明三维培养体系诱导扩增的CAR-T细胞数量可满足临床使用的要求。</p>
+<h5 id="表型鉴定">表型鉴定：</h5>
+<p>1.CAR-T表面标记物的流式鉴定：流式，CD3/CD5/CD7/TCRαβ/CD8αβ阳性和NKG2A/NKP46/CD16/CD19阴性的表型。</p>
+<p>2.和传统CAR-T亚群的比较：类似，由处于不同分化阶段的群体组成的。</p>
+<p>3.CAR-转基因水平的测定：由iPSC 衍生的T细胞均保留了它们的TCR单克隆，而传统T细胞产品则是高度多克隆的。</p>
+<h5 id="转录表达分析">转录表达分析：</h5>
+<p>1.RNA深度测序：iPSC来源的 T细胞的转录谱与传统来源的T细胞或来自同一供体的NK细胞相似，且更接近传统T细胞</p>
+<p>2.差异基因筛选与传统免疫细胞分析对比：IL-13、HLA-DR、IL7R、CCR4和CD74的表达水平较低，但DLL1、FOSL2、TXK、REG4和IFITM2水平较高。相关功能基因集分析显示，与传统的CD19-CAR T细胞相比，iPSC CD19-CAR T细胞表达的T淋巴细胞基因CD3E、CD3D、CD8、LCK和ZAP70的水平较高，CD4、GATA3、BCL11B和LEF1基因的水平较低。在细胞毒基因方面，iPSC CD19-CAR T细胞表达更多的GNLY和PRF1，但GZMB较少。T细胞抑制基因上，iPSC CD19-CAR T细胞表达较少的CTLA4、PD1和TIGIT，但表达较多的LAG3和TIM3。</p>
+<p>3.转录启动子甲基化检测：EF1α启动子的甲基化状态检测</p>
+<h5 id="功能验证">功能验证：</h5>
+<h6 id="ipsc-car-t细胞体外和体内抗肿瘤功能的验证">iPSC CAR-T细胞体外和体内抗肿瘤功能的验证：</h6>
+<ol>
+<li>体外效应功能：细胞的定向溶解、脱颗粒性和IFN-γ水平</li>
+<li>信号转导：信号通路WB分析，iPSC CD19CAR T细胞表现出ERK1/2 Thr202/Thr204和PLCγ Ser1248的磷酸化，说明其抗原特异性与传统CD19-CAR T细胞相当。</li>
+<li>抗肿瘤疗效：小鼠腹膜内急性淋巴瘤肿瘤模型，静脉注射iPSC CD19-CAR T细胞治疗显著地延缓了肿瘤的进展，并明显延长了小鼠的生存期。和人IL-15分泌型细胞（NS0-hIL15）联合治疗增强效果。</li>
+</ol>
+<h4 id="outcomes-and-value"><strong>Outcomes and Value</strong></h4>
+<p>该系统产生的 iPSC CD19-CAR T细胞与传统的CD19-CAR T细胞相比，显示出相当的抗原特异性激活、脱颗粒、细胞毒性和细胞因子分泌，并显示在体内强大的抗肿瘤活性，延长了CD19+人肿瘤异种移植小鼠的生存期。</p>
+<h4 id="未来课题">未来课题</h4>
+<p>已证实3D类器官可制备CAR-T，高功能使用3D类器官是否可制备高功能CAR-NK等免疫细胞</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CAR T cells produced in vivo to treat cardiac injury]]></title>
+        <id>https://lumluminous.github.io/blog/post/car-t-cells-produced-in-vivo-to-treat-cardiac-injury/</id>
+        <link href="https://lumluminous.github.io/blog/post/car-t-cells-produced-in-vivo-to-treat-cardiac-injury/">
+        </link>
+        <updated>2022-07-20T09:10:43.000Z</updated>
+        <content type="html"><![CDATA[<p>Joel G. Rurik, et al. Science (2022). PMID:34990237</p>
+<h3 id="abstract">Abstract</h3>
+<p><strong>本文研究者开发了一种能特异性靶向<strong><strong>T</strong></strong>细胞的脂质纳米粒（<strong><strong>Lipid nanoparticles, LNPs</strong></strong>），该<strong><strong>LNPs</strong></strong>能递送包裹在其中的<strong><strong>mRNA</strong></strong>，从而生成</strong>瞬时**嵌合抗原受体<strong><strong>T</strong></strong>细胞（<strong><strong>Chimeric antigen receptor T cell, CAR-T cell</strong></strong>）以逆转心肌纤维化****。**具体来说，研究者通过将靶向CD5的LNPs注射到心衰小鼠模型中来评估这种体内重编程的CAR-T细胞的功效。结果显示，编码CAR结构的mRNA能够被高效递送到T淋巴细胞中，该过程在体内产生了瞬时有效的CAR-T细胞。抗纤维化的CAR-T细胞表现出了胞啃作用（Trogocytosis），并且当它们在脾脏聚集时能够保留靶抗原。利用修饰mRNA靶向的LNPs进行治疗, 可减少心脏损伤后的纤维化并恢复心脏功能。可见，体内生成CAR-T细胞这种治疗模式有望治疗多种疾病。</p>
+<figure data-type="image" tabindex="1"><img src="https://www.science.org/cms/10.1126/science.abm0594/asset/d21b9ac1-d5ac-46e9-9b03-6bbb482b0c65/assets/images/large/science.abm0594-f1.jpg" alt="img" loading="lazy"></figure>
+<h4 id="research-topic"><strong>Research Topic</strong></h4>
+<p>心肌损伤可激活心脏成纤维细胞，导致心肌纤维化，进而影响心脏功能。现有的抗纤维化治疗的临床试验旨在延缓纤维化进程，效果甚微。因此，开发新型疗法以在心肌纤维化后逆转纤维化是彻底解决上述问题的关键。</p>
+<h4 id="background"><strong>Background</strong></h4>
+<p>（1）心肌损伤后，成纤维细胞活化蛋白（Fibroblast activation protein, FAP）在心肌纤维化过程中发挥重要作用。</p>
+<p>（2）嵌合抗原受体T细胞（CAR-T）具有胞啃作用，能够识别相应的抗原并进行内吞。</p>
+<p>（3）该课题组先前已利用逆转录病毒构建的FAP CAR-T细胞来特异性消除心脏病模型小鼠心脏FAP蛋白和活化的成纤维细胞，显著减少心脏纤维化并改善心脏功能[1]。</p>
+<p>（4）逆转录病毒来源的FAP CAR-T细胞能够在体内较长期存活，为了避免其干扰组织正常伤口愈合过程，可以将表达FAP CAR的mRNA靶向递送至T细胞内以生成一种瞬时抗纤维化CAR-T细胞。</p>
+<h4 id="methodology"><strong>Methodology</strong></h4>
+<h5 id="实验材料">实验材料：</h5>
+<p>1.表达目的蛋白的mRNA的制备：FAP-CAR\GFP\Luciferase荧光素酶\Cre recombinase重组酶</p>
+<p>2.LNP-mRNA包载物制备：CD5/LNP包载的mRNA，IgG、LNP包载的mRNA</p>
+<p>3.病毒转导的FAP CAR-T制备 :FAP CAR-T,CAR-GFP-T</p>
+<p>4.mRNA体外制备的FAP CAR-T：CD5/LNP-FAP CAR转染小鼠的T细胞,设置CD5的对照组IgG和FAP的对照组GFP</p>
+<p>5.mRNA体内制备的FAP CAR-T:CD5/LNP-FAP CAR静脉注射心机纤维化模型小鼠，设置六个对照组（FAP\GFP\Luc）</p>
+<p>6.逆转录病毒构建FAP CAR-T（已有文章）</p>
+<p>7.细胞模型：HEK 293T，分别表达FAP和RFP标记的FAP</p>
+<p>8.动物模型：Ai6 Cre报告小鼠 、心肌纤维化小鼠模型（血管紧张素和苯肾上腺素诱导）</p>
+<h5 id="实验思路">实验思路：</h5>
+<p>1.体外实验：Flowcyto测定FAP CAR-T的转染效率、dose-dependent manner（时间依赖）、对293T的细胞毒作用、实时成像观察与RFP-FAP HEK 293T 的</p>
+<p>2.体内实验: 逆转录病毒构建的CD5/LNP-FAP CAR静脉注射模型小鼠、逆转录病毒构建的CD5/LNP-GFP CAR-T静脉注射模型小鼠、mRNA体内构建的CD5/LNP-FAP CAR静脉注射模型小鼠，以上都是胞啃作用实验Trogocytosis。脾脏的免疫荧光分析看白髓区域。</p>
+<p>3.治疗评价：mRNA体内构建的CD5/LNP-FAP CAR静脉注射模型小鼠，做超声心动图像和心脏组织学分析。</p>
+<h5 id="protocol">Protocol:</h5>
+<p>https://en.bio-protocol.org/cjrap.aspx?eid=10.1126/science.abm0594</p>
+<figure data-type="image" tabindex="2"><img src="C:%5CUsers%5Cmatengyun%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220721171450702.png" alt="image-20220721171450702" loading="lazy"></figure>
+<h4 id="outcomes-and-value"><strong>Outcomes and Value</strong></h4>
+<p>1.<strong>mRNA靶向递送技术能够在体外构建FAP CAR-T细胞。</strong></p>
+<p>2.<strong>在体内可将<strong><strong>FAP CAR mRNA</strong></strong>靶向递送至<strong><strong>T</strong></strong>细胞以构建<strong><strong>FAP CAR-T</strong></strong>细胞。</strong></p>
+<p>3.<strong>逆转录病毒构建/mRNA靶向递送的<strong><strong>FAP CAR-T</strong></strong>细胞在体内外能够发挥胞啃作用</strong>。</p>
+<img src="https://www.science.org/cms/10.1126/science.abm0594/asset/ee56ddf0-aff9-4c9a-85ed-222371d3c0db/assets/images/large/science.abm0594-f3.jpg" alt="img" style="zoom:50%;" />
+<p>4.治疗评价：<strong>接受治疗的动物的心脏重量与体重比在统计学上有显著改善</strong>，<strong>体内生成的<strong><strong>FAP CAR-T</strong></strong>细胞能够降低损伤心肌的纤维化并改善心脏功能。</strong></p>
+<figure data-type="image" tabindex="3"><img src="https://www.science.org/cms/10.1126/science.abm0594/asset/3023b536-52b7-4e48-b2ba-140f21e92f53/assets/images/large/science.abm0594-f4.jpg" alt="img" loading="lazy"></figure>
+<h4 id="conclusion">Conclusion</h4>
+<p>CD5/LNP-FAP CAR-T→T cells→ FAP CAR-T →Trogocytosis →FAP 下降→Activated cardiac fibroblast 下降 →Fibrosis  下降</p>
+<p>本研究利用靶向CD5的LNPs将FAP CAR mRNA特异性递送至心肌损伤小鼠T细胞，生成的FAP CAR-T细胞能够通过胞啃作用逆转小鼠损伤心肌的纤维化并改善心脏功能。</p>
+<h4 id="未来课题">未来课题</h4>
+<p>mRNA靶向递送技术和CAR-T细胞技术均是当今研究热点，分别在新冠疫苗研制和肿瘤治疗方面取得了巨大成功。本研究将上述两项技术进行结合，首次利用mRNA在体内生成CAR-T以治疗心肌纤维化，极大地开拓了相关研究领域。</p>
+<p>能否用靶向型的LNPs递送mRNA在体内构建CAR-T、TCR-T、CAR-NK等免疫细胞，用于肿瘤治疗</p>
+<h4 id="ref">Ref</h4>
+<p>\1. Aghajanian H, Kimura T, Rurik JG, et al. Targeting cardiac fibrosis with engineered T cells. Nature, 2019, 573:430-433.</p>
+<p>\2. Etienne Joly and Denis Hudrisier. What is trogocytosis and what is its purpose? Nature Immunology, 2003, 4:815.</p>
+<p>\3. Nuria Martínez-Martín, Elena Fernández-Arenas, Saso Cemerski, et al. T Cell Receptor Internalization from the Immunological Synapse Is Mediated by TC21 and RhoG GTPase-Dependent Phagocytosis. Immunity, 2011, 35(2): 208-222.</p>
+<p>\4. Mohamad Hamieh, Anton Dobrin, Annalisa Cabriolu, et al. CAR T cell trogocytosis and cooperative killing regulate tumour antigen escape. Nature, 2019, 568, 112–116.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In vivo CRISPR screens identify the E3 ligase Cop1 as a modulator of macrophage infiltration and cancer immunotherapy target]]></title>
+        <id>https://lumluminous.github.io/blog/post/in-vivo-crispr-screens-identify-the-e3-ligase-cop1-as-a-modulator-of-macrophage-infiltration-and-cancer-immunotherapy-target/</id>
+        <link href="https://lumluminous.github.io/blog/post/in-vivo-crispr-screens-identify-the-e3-ligase-cop1-as-a-modulator-of-macrophage-infiltration-and-cancer-immunotherapy-target/">
+        </link>
+        <updated>2022-07-20T08:59:19.000Z</updated>
+        <content type="html"><![CDATA[<p>Wang, Xiaoqing, et al.Cell. 2021 Oct 14. PMID: 34582788</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/lumluminous/Picbed_Picgo/main/20220721181232.png" alt="" loading="lazy"></figure>
+<p>本文利用体内CRISPR敲除筛选技术和同源TNBC小鼠模型<br>
+发现：肿瘤细胞中E3泛素连接酶Cop1的缺失可以减少巨噬细胞相关趋化因子的分泌，减少肿瘤中巨噬细胞的浸润，增强抗肿瘤免疫及ICB响应性。</p>
+<p>转录组-表观组-蛋白组联合分析发现：Cop1通过蛋白酶体降解C/ebpδ蛋白而发挥作用。其中，Cop1的底物Trib2介导了Cop1与C/ebpδ的互作，导致C/ebpδ多聚泛素化。相应地，在肿瘤细胞中敲除Cop1可以稳定C/ebpδ，从而抑制巨噬细胞相关趋化因子的表达。</p>
+<p>因此，基于其对肿瘤微环境中趋化因子表达及巨噬细胞浸润的调控作用，Cop1有望作为提高TNBC的ICB治疗效果的潜在治疗靶点。</p>
+<p>研究启发：</p>
+<ol>
+<li>多项计算生物学分析工具：他们前期研发的MAGeCKFlute1分析敲除后可显著影响抗肿瘤免疫的基因（文中筛出来了IFNγ信号通路相关基因Jak1, Jak2, Stat1, Irf1）</li>
+<li>Cop1不仅表达在巨噬细胞，也表达在其他免疫细胞上。未来如果研发出Cop1抑制剂作为治疗药物，其可能会直接作用于免疫细胞上的Cop1而影响免疫应答。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LncRNA research ideas, models and databases]]></title>
+        <id>https://lumluminous.github.io/blog/post/lncrna-research-ideas-models-and-databases/</id>
+        <link href="https://lumluminous.github.io/blog/post/lncrna-research-ideas-models-and-databases/">
+        </link>
+        <updated>2022-07-08T07:19:27.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>20210704 revised</p>
+<p>本文总结了曾经红极一时、目前热度不减的lncRNA的研究思路和模式以及相关工具。总的来说，lncRNA机制研究套路还不成熟，和miRNA的总体研究思路相似，但lncRNA并不像miRNA一样通过3’UTR影响翻译功能。lncRNA分子的获得及其细胞表型的获得并非难事，关键在于如何进行下一步的研究。由于RNA-蛋白质互作的检测手段难得，lncRNA的机制研究相对困难，一般将lncRNA当做和mRNA一样的分子而非调节因子来研究（旧瓶装新酒）。在体外，可以通过分子干扰手段，进行分子及表型研究，体内亦然。</p>
+<p>**关键词：**长链非编码RNA　肿瘤免疫　数据库　模型方法</p>
+<p><strong>0</strong>   <strong>引言</strong></p>
+<p>LncRNA相关免疫治疗有诸多优点。LncRNA调控一系列下游靶基因，有多个调控位点，参与多种细胞信号转导途径，使其在肿瘤治疗中具有更强的有效性。许多lncRNA在多种肿瘤中差异性表达，具有肿瘤特异性，对新的个性化治疗的发展至关重要。作为癌基因或抑癌基因的lncRNA调节免疫细胞功能的特异性及其关键作用越来越受到人们的关注，通过技术手段调节异常表达的lncRNA，以充分调动免疫细胞功能，激发和增强体内抗肿瘤免疫应答，成为一种有前途的免疫治疗策略。</p>
+<p><strong>1</strong>   <strong>LncRNA<strong><strong>的</strong></strong>研究思路</strong></p>
+<!-- more -->
+<p>​<br>
+1.1　LncRNA的研究方向及实验手段</p>
+<p>图 1 lncRNA的研究方向及实验手段</p>
+<p>1.2　LncRNA的研究方法</p>
+<p><strong>A.</strong>   <strong>人类单细胞样本的采集</strong>**[1,2]**</p>
+<p>从肿瘤和邻近正常组织中收集单细胞。肿瘤和邻近的正常组织切成大约1mm3的小块，置于含有10%胎牛血清的RPMI-1640培养基中。用MACS肿瘤细胞分离试剂盒在转子上37℃消化30min。随后将分离的细胞随后通过70 μm的细胞过滤器(BD)，并在400g下离心10min。取上清液后，将细胞沉淀悬浮于红细胞裂解缓冲液中，在冰上孵育2min。用1xPBS洗涤两次后，将细胞沉淀重新悬浮在分选缓冲液(PBS+1%FBS)中。</p>
+<p>用HISTOPAQUE-1077(Sigma-Aldrich)溶液分离PBMC。手术前在EDTA抗凝管中收集4mL新鲜外周血，然后将其分层到HISTOPAQUE-1077上。离心后，淋巴细胞仍留在血浆-HISTOPAQUE-1077界面，并小心地转移到新的试管中，用1xPBS洗涤两次。通过上述相同的程序去除红细胞。将这些淋巴细胞重新悬浮在分选缓冲液中。</p>
+<p><strong>B.</strong>   <strong>样本的单细胞分选、逆转录、扩增和测序</strong></p>
+<p>单细胞悬液用抗CD45和7-AAD的抗体染色用于分选，通过门控CD3-或CD3-CD19 -CD79A-CD56-细胞以排除淋巴细胞，进一步富集单个骨髓细胞。对于T和单核细胞谱系细胞，通过门控7-AAD - CD45 + CD3 +和7-AAD -CD45+ CD3- CD14 +来富集单细胞。将单细胞分选到1.5 mL试管 (Eppendorf) 中并在显微镜下手动计数。单细胞悬液的浓度调整为500-1200细胞/ul。使用 10x Chromium Single cell 5' Library、Gel Bead &amp; Multiplex Kit和Chip Kit（10x Genomics）将细胞加到7000到15000个细胞芯片/位置。纯化的文库通过具有150 bp双端读数的Illumina测序仪进行分析。</p>
+<p><strong>C.</strong>   <strong>多重免疫荧光成像</strong></p>
+<p>将整个肿瘤固定在4％PFA / PBS中过夜，包埋在OCT冷冻培养基之前在30%蔗糖/PBS中脱水。在低温恒温器上切下16mm切片，粘附在Superfrost Plus载玻片上，并用含有0.3%Triton X-100（Sigma）和10%山羊血清的PBS透明/封闭。将切片用含0.1%Triton X-100和5%山羊血清的PBS中直接偶联抗体染色。盖玻片安装具有DAPI的ProLong Diamond，在LSM 510共聚焦显微镜上捕获图像。</p>
+<p><strong>D.</strong>   <strong>胞内细胞因子染色</strong></p>
+<p>用细胞刺激混合物加蛋白转运抑制剂在37℃ 5%CO2刺激细胞2小时，并辅以10%热灭活胎牛血清的RPMI培养基。为检测细胞内IL-12，用MC38荷瘤小鼠腹腔注射抗CD40抗体(100ug/只)或对照同种型。腹腔注射后2天取肿瘤，用Brefeldin A (Biolegend)在37℃、5%CO2、含10%热灭活胎牛血清的RPMI培养基中孵育3h。肿瘤消化后获得单细胞悬液，表面标志物染色后，IL-12染色。用Foxp3 Transcription Factor Staining Buffer (ThermoFisher)在4℃下固定细胞30min，以测定细胞内蛋白的表达。</p>
+<p>E.   <strong>Bulk DNA</strong> <strong>分离和测序</strong></p>
+<p>用QIAAmp DNA Mini Kit(QIAGEN)提取癌症患者外周血和组织标本的基因组DNA。用Qubit HsDNA试剂盒(Invitgen)测定DNA浓度，琼脂糖凝胶电泳评价DNA质量。外显子文库是使用SureSelectXT Human all Exon V5捕获库(Agilent)构建的。样品在Illumina HiSeq 4000测序仪上以150bp的配对末端读数进行测序。</p>
+<p><strong>F.</strong>   <strong>人组织的多色免疫组化</strong></p>
+<p>肿瘤切除后30min内采集标本，10%福尔马林固定48h，脱水石蜡包埋法。石蜡切片5 um，贴于载玻片上，70℃加热1h，二甲苯脱蜡，依次用100%、90%、70%乙醇复水。使用Opal 7色手册IHC试剂盒(PerkinElmer，NEL811001KT)确认TAM。用AR9缓冲液(pH6.0，PerkinElmer)回收抗原，在烘箱中15min。分别与鼠抗人CD68(Abcam，KP1，1：100)、兔抗人CD80(Abcam，EPR1157(2)，1：200)、兔抗人c-Maf(Abcam，EPR16484，1：200)、兔抗人Macro(Abcam，1：100)和鼠抗人VEGFA(Abcam，VEG-1，1:200)共同孵育1h。加入辣根过氧化物酶偶联二抗(PerkinElmer)，室温孵育10min。用1：100稀释的TSA工作液和1x扩增稀释液(PerkinElmer) 室温孵育10min进行信号放大。多光谱图像由Mantra定量病理工作站(PerkinElmer，CLS140089)采集，放大倍数20。每个患者根据肿瘤大小，总共采取8-15个高倍视野。</p>
+<p><strong>G.</strong>   <strong>量化和统计分析</strong></p>
+<p>\1.   RNA-seq read alignment and transcript assembly[3,4]</p>
+<p>R package (R-3.6.3 https://www.r-project.org/) of &quot;DESeq2&quot; to analyze the differences between mRNA and lncRNA from the normal tissue samples and cancer tissues in the expressing data. The significance analysis with false discovery rate (FDR) &lt; 0.05 and |log2 fold change (FC)| ≥ 2was applied to select lncRNAs and mRNAs for further analysis.</p>
+<p>\2.   Identification of lncRNAs[5]</p>
+<p>​<br>
+Identification of lncRNAs based on de novo assembly of transcripts from RNA-seq data.</p>
+<p>\3.   Survival-related genes generation</p>
+<p>R packages “survival”and “survminer” were applied for the survival analysis.</p>
+<p>\4.   GO and KEGG enrichment analysis</p>
+<p>R package “Cluster Profiler” was used to carry out GeneOntology (GO) enrichment analysis including biological process(BP), cell components(CC) and molecular functions(MF) for the differentially expressed survival-related genes. The same tool is also used for the enrichment analysis of Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis.</p>
+<p>\5.   Construction of the lncRNA/mRNA co-expression network</p>
+<p>To construct the lncRNA/mRNA co-expression network, we calculated the Pearson correlation coeficient and R value to evaluate lncRNA-mRNA correlation.</p>
+<p>\6.   Feature Selection by LASSO analysis</p>
+<p>LASSO is a machine learning algorithm in which both variable selection and regularization occur</p>
+<p>simultaneously. This model uses a penalty to shrink regression coeficients toward zero, a number of variables will be eliminated because their coeficients will shrink to exactly zero. In the present study, the survival-related lncRNAs and mRNAs identified were included in the LASSO regression analysis by using the R package “glmnet”, and the penalty parameter “lambda” was selected to choose the best model based on leave-one-out crossvalidation, which is more suitable than tenfold cross-validation for a smaller number of samples. Finally, we extracted variables with nonzero coeficients and their corresponding coeficients.</p>
+<p>\7.   Multi Cox proportional regression analysis and stepwise Cox</p>
+<p>Combined with the overall survival rate of cancer patients in TCGA, the R package “survival” was used to perform multivariate COX regression analysis and stepwise COX multivariate regression analysis on the lncRNAs and mRNAs selected by LASSO to obtain lncRNAs and mRNAs (p value &lt; 0.05).</p>
+<p>\8.   TME Cell type enrichment abundance analysis between high-risk and low-risk groups</p>
+<p>Components of the TME in high-risk and low-risk cancer samples from the TCGA cohort were assessed by applying xCell web tool (http://xcell.ucsf.edu/).</p>
+<p>\9.   Construction of a ceRNA Network</p>
+<p>MiRanda is an information resource for experimentally validated miRNA-target interactions. The lncRNA-miRNA interactions were predicted with the LncBase Predicted.The Pearson correlation coeficient (PCC) for miRNA-mRNA and miRNA-lncRNA was calculated using paired miRNA, mRNA, and lncRNA expression profile data.</p>
+<p>\10.  Transcriptome deconvolution of the TIME[6]</p>
+<p>The abundance of infiltrating immune cell populations in the TIME was estimated by deconvolution methods using the CIBERSORT with LM22 signature matrix. The fraction of stromal and immune cells in the tumor samples was calculated by the single-sample geneset enrichment analysis (ssGSEA) using ESTIMATE.</p>
+<p>\11.  Identification of lncRNA modifiers of tumor-infiltrating immune cells</p>
+<p>lncRNA expression profiles of TCGA pan-cancer cases were obtained based on the lncRNA annotation of the GENCODE project. lncRNA modifiers of tumor-infiltrating immune cells (TII-lncRNAs) were identified using a systems immunology framework as follows: (i) All lncRNAs were ranked based on their co-expression relationship with immune marker genes, and lncRNAs with a significantly higher Pearson correlation coefficient (PCC) of 0.3 and P &lt; 0.05 were considered as immune generelated lncRNAs; (ii) these immune gene-related lncRNAs were ranked based on the correlation between their expression and the abundance of a given infiltrating immune cell population, as calculated by PCC, and those with a significantly higher PCC were considered as candidate TII-lncRNAs; (iii) samples were classified into high and low immune infiltration groups using the top and bottom quartiles for a given immune cell population. Candidate TII-lncRNAs that were significantly differentially expressed between tumors with a high and low immune infiltration were defined as TII-lncRNAs.</p>
+<p>\12.  Computational index of cancer-related events and immunomodulation</p>
+<p>To quantify the role and dynamics of cancer in each patient, genes were obtained from a previous study, and the EMT score was calculated using the Student’s t-test score between epithelial cell marker genes and the expression of mesenchymal cell marker genes. To characterize the occurrence of immune-mediated tissue-specific destruction, the Immunologic Constant of Rejection (ICR) score was calculated using the mean of the normalized log2 transformed expression values of 20 ICR signature genes from Roeland’s study. To quantify the immune effector activity in solid tumors, the cytolytic activity (CYT) score was calculated using the geometric mean of two key cytolytic effectors, granzyme A, and perforin, in each patient.</p>
+<p>\13.  Development of TII-lncRNA-derived immune state index (TISI)</p>
+<p>Samples with a higher TISI exhibited a low-affinity immune phenotype, whereas a lower TISI reflected a high-affinity immune phenotype.</p>
+<p>\14.  Enrichment analysis of functional genesets</p>
+<p>Single-sample Gene Set Enrichment Analysis (ssGSEA) was performed to calculate the enrichment score (ES) of each patient using R package‘GSVA’ and identify up- or downregulated interested genesets or pathways in different subtypes within each tumor type. The immunologic signature and hallmark genesets were obtained from the Molecular Signatures Database (MSigDB, V7.2).</p>
+<p>\15.  Statistical analysis</p>
+<p>Consensus clustering analysis was performed on the R package‘ConsensusClusterPlus’ using the K-means method and Euclidean distances to identify the optimum number of clusters in pan-cancer based on the expression pattern of TII-lncRNAs. Univariate and multivariate Cox proportional hazards regression models were used to assess the association between the TISI and overall survival with/without clinical variables. The hazard ratio (HR) and 95% confidence interval (CI) were calculated. Two-sided Wilcoxon rank-sum tests were used to compare two groups. The Kaplan–Meier method and log-rank test were conducted to compare survival differences between two tumor groups. Receiver operating characteristic (ROC) curves were used to evaluate the predictive performance for the response to immunotherapy, and the area under the curve (AUC) was calculated. All statistical analysis was performed using R/Bioconductor (version 3.6.1).</p>
+<p>1.3　LncRNA的命名</p>
+<p>lncRNA的命名目前没有统一的规则，但为了让lncRNA的命名具有唯一性、准确性并最大程度上反映其功能，雨果基因命名委员会（HGNC，唯一的制定人类基因命名标准的官方授权机构）提供了一个命名指导指南，以供参考。参考文献：A short guide to long non-coding RNA gene nomenclature。</p>
+<p>作者在发表新lncRNA时，可先获取HGNC的认可，如果作者发布的名字已在其他地方使用过，HGNC将会指定一个新名字供作者选择。lncRNA的名字应是描述基因的缩写，便于人们理解名字的含义。如BANCR就是BRAF-activatednon-proteincoding RNA的缩写。</p>
+<p>功能性转录假基因在命名时应保留它们假基因名称且不应改变其基于功能的名称。为了方便搜索，这个功能应加在名字的最后。eg: PTENP1 是“phosphatase and tensin homolog pseudogene 1 (functional)”。对于未知功能的lncRNA应依据基因组上下游来命名。如果有一个很接近的蛋白编码基因，lncRNA的名字应该以这个编码基因名字开始，再加后缀即可。</p>
+<p>后缀的分类：</p>
+<table>
+<thead>
+<tr>
+<th>反义（antisense，AS）</th>
+<th>eg:  BACE1-AS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内含子(intronic，IT）</td>
+<td>eg:  SPRY4-IT1</td>
+</tr>
+<tr>
+<td>重叠（overlapping，OT）</td>
+<td>eg:  OSX2-OT</td>
+</tr>
+<tr>
+<td>长链基因间lncRNA（Longintergenic  lncRNAs，lincRNAs）</td>
+<td>eg:  LINC00485</td>
+</tr>
+<tr>
+<td>编码基因头碰头，拥有双向启动子，反义上游（Antisense  upstream，AU）</td>
+<td>eg:GENE2-AU1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2</strong>   <strong>lncRNA****表达调控</strong></p>
+<p>lncRNA在免疫细胞或肿瘤中的靶向调控途径<a href="%E5%9B%BE2">7</a>：</p>
+<p>(1)将RNA不稳定元件(RDES)整合到基因组中，通过靶向特定的基因组位点来抑制lncRNA，产生类似于基因敲除的效果。</p>
+<p>(2)通过影响编码lncRNA的启动子活性来调节lncRNA的转录。</p>
+<p>(3)LncRNA转录本失稳或降解。与其他基因类似，特定的siRNA与相关蛋白形成RNA诱导的沉默复合物(RISC)，并基于互补性与特定的靶序列结合，导致靶lncRNA降解。</p>
+<p>(4)小分子抑制剂结合特定位点阻断lncRNA与调控因子之间的相互作用。</p>
+<p>(5)适配体可以特异性地与靶LncRNA的结构域结合，并阻止其与原伴侣结合，从而导致LncRNA的功能破坏。</p>
+<p>(6)针对lncRNA的基因编辑，如CRISPR-Cas9技术。</p>
+<p>​<br>
+(7)人工合成的lncRNA模拟物。引入细胞以增加关键的lncRNA的水平。</p>
+<p>图 2 调节lncRNA水平的七种方法[7]</p>
+<p><strong>3</strong>   <strong>免疫治疗策略</strong></p>
+<p>PD-1、PDL-1和CTLA-4抗体等多种药物取得了可喜的治疗效果。然而免疫治疗的多种耐药机制在很大程度上限制了药物的有效性（表1）。研究表明，lncRNA在肿瘤的耐药性和免疫治疗抵抗中起着至关重要的作用[8]。lncRNA通过在不同阶段诱导免疫逃逸，包括抗原呈递的丧失或减弱、PD-L1表达上调、T细胞活性减弱、以及募集肿瘤环境中的MDSCs和Tregs（图3）。发掘lncRNA在肿瘤免疫调节中作用可用于开发靶向lncRNA的免疫治疗抗体或化疗药物，以最大限度地发挥抗肿瘤药物的疗效，克服肿瘤的耐药性和抵抗性，这将成为未来肿瘤治疗新策略和新方法。</p>
+<p>然而，lncRNA的免疫治疗仍然存在一些不确定性，如是否会影响肿瘤免疫环境中的其他细胞成分和脱靶后的安全问题。其次，lncRNA并非简单的线性结构，其二级甚至三级结构可能导致无法有效干预。第三， lncRNA在不同物种之间的保守性很差，体外实验和动物模型开发的有效疗法可能难以应用于人类。第四，如何选择合适的lncRNA作为药物，以及如何确保lncRNA在复杂的调控网络下不会引起的副作用等问题仍然存在。</p>
+<p>到目前为止，还没有关于lncRNA单独或与其他药物联合治疗癌症的临床试验。目前对lncRNA在肿瘤治疗中的研究主要集中在分子细胞学水平和小鼠肿瘤模型水平。</p>
+<p>表 1 LncRNAs对不同癌症PD-1/PD-L1的影响[9]</p>
+<table>
+<thead>
+<tr>
+<th><strong>LncRNA</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>癌症</strong></th>
+<th><strong>机制</strong></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AFAP1-AS1</td>
+<td>regulating the immune  response</td>
+<td>nasopharyngeal carcinoma</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NKX2-1-AS1</td>
+<td>regulating the  expression of immune markers</td>
+<td>lung cancer</td>
+<td>inhibiting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>UCA1</td>
+<td>regulating the  expression of immune markers</td>
+<td>bladder cancer</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SNHG20</td>
+<td>regulating the  expression of immune markers</td>
+<td>esophageal  squamous cell carcinoma</td>
+<td>promoting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MALAT1</td>
+<td>regulating the  expression of immune markers</td>
+<td>diffuse large B  cell lymphoma</td>
+<td>inhibiting PD-L1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>图 3 免疫相关lncRNA可能通过多种机制在不同水平调节免疫成分和微环境，从而在免疫治疗耐药中发挥重要作用。抗原递呈的丧失或减弱、肿瘤PD-L1上调、T细胞功能障碍以及免疫抑制性细胞的积累导致免疫治疗的抵抗作用。总之，免疫相关 lncRNA 可能导致肿瘤细胞抵抗免疫治疗[8]。</p>
+<p><strong>4</strong>   <strong>一般研究模式</strong></p>
+<p>图 4 基因的研究模式</p>
+<p><strong>5</strong>   <strong>数据库信息</strong></p>
+<p>表 2  LncRNA数据库汇总</p>
+<table>
+<thead>
+<tr>
+<th><strong>数据库</strong></th>
+<th><strong>简介</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TANRIC</td>
+<td>网址：http://bioinformatics.mdanderson.org/main/TANRIC:Overview   种属信息：人类   功能：TANRIC是独立验证候选 lncRNA 的一大神器，是癌症非编码RNA的地图集。除了包括TCGA的数据外，还对 Cancer Cell  Line Encyclopedia（CCLE）里各种细胞系的数据进行了深度的分析和整合。一共包括20种癌症，超过8000个样品。TANRIC是一个交互式的数据分析和可视化平台，含有三大类的数据，包括lncRNA注释信息，RNA-Seq数据以及profiling数据。TANRIC有两大功能查询和分析 lncRNA。提供每个样品的表达量信息，包括正常的组织和癌组织；计算 lncRNA 表达量与哪些临床指标相关、预后相关性；计算候选lncRNA 和每个编码基因、microRNA之间的相关系数；还提供不同肿瘤表达水平的 Heatmap 图展示功能。</td>
+<td></td>
+</tr>
+<tr>
+<td>LNCediting</td>
+<td>网址：http://bioinfo.life.hust.edu.cn/LNCediting/   种属信息：人、猴、鼠、果蝇   功能：RNA编辑是一种广泛的转录后机制，可以对RNA转录本中的特定核苷酸序列进行离散的改变。RNA编辑事件可导致mRNA的误义密码子改变，mRNA中选择性剪接的调节，或在小的非编码RNA（如miRNA）中调控RNA及其结合位点的修改。最近的研究开发了计算方法，可以从不同物种的下一代测序数据中准确检测出200多万份A-to-I RNA编辑。然而，绝大多数这些RNA位点位于基因组的非编码区，具有未知的功能相关性。LNCediting为长链非编码RNA (lncRNAs)的RNA编辑功能预测提供了全面的资源。</td>
+<td></td>
+</tr>
+<tr>
+<td>starbase 数据库</td>
+<td>网址：http://starbase.sysu.edu.cn/   种属信息：包括多个物种，可选择人类信息   功能：多种功能且操作简便易懂。由中山大学团队开发，用来研究由大规模 CLIP-Seq  (HITS-CLIP, PAR-CLIP, iCLIP, CLASH) 产生的lncRNA, miRNA, ceRNA, RNA-bingding protein 和mRNA互作网络的数据库，其中的数据包含了14中tumor samples，超过了6000个样本，可以选择多个数据库进行协同预测，可以选择CLIP-Seq数据的等级。starBase可以用来研究protein-lncRNA, miRNA-lncRNA, ceRNA networks等。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRBase</td>
+<td>网址：http://bicresources.jcbose.ac.in/zhumur/lncrbase/   种属信息：人和小鼠   功能：该数据库目前共有216562个lncRNA转录本条目，包含lncRNA转录本基本特征、基因组位置，与lncRNA相关的重复元件、印迹基因、启动子信息等。可以搜索映射到特定lncRNA的微阵列探针以及相关的疾病信息，也可以搜索组织中的lncRNA表达。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncipedia</td>
+<td>网址：https://lncipedia.org/   种属信息：人   功能：能够对目前大部分已知的lncRNA进行相关查询。对于一个只知道名字的lncRNA通过这个数据库能够知道它的序列信息、转录本信息、同源性、具体的位点/编码蛋白的可能性、目前相关的文章、以及它的在不同数据的不同的名字。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNASNP</td>
+<td>网址：http://bioinfo.life.hust.edu.cn/lncRNASNP#!/   种属信息：人、小鼠   功能：长链非编码RNA（lncRNAs）正在成为调控各种细胞过程和疾病的关键因素。LncRNASNP是一个提供人/小鼠lncRNAs单核苷酸多态性（SNPs）综合资源的数据库。它包含lncRNA中的SNP，SNP对lncRNA结构的影响，lncRNA的突变和lncRNA:miRNA结合。</td>
+<td></td>
+</tr>
+<tr>
+<td>lnCAR</td>
+<td>网址：https://lncar.renlab.org/explorer   种属信息：人和小鼠   功能：中山大学肿瘤防治中心的任间教授和左志向副研究员合作在2019年Cancer Research发表的，这个数据库主要是整理来自GEO数据库中的10大类癌症大概60000个样本的芯片表达数据以及13000个样本的临床资料，可以使得科学家快速查阅感兴趣lncRNA在不同癌症、不同条件的差异表达情况以及生存预后信息。数据网站可视化很好，结果可下载，维护的很好，是一个很值得用的网站</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNome</td>
+<td>网址：http://genome.igib.res.in/lncRNome   种属信息：人类   功能：超过18000转录本目前已作为lncRNA标注，覆盖先前注释非编码转录本，包括大型基因间非编码RNA，反义RNA和加工的假基因。但在提供稳定的注释，交叉引用和生物相关的信息资源方面有显著的差距。由印度CSIR基因组和整合生物学研究所开发的lncRNome，旨在填补这一空白，他们通过把生物显著性的各种各样的信息注释整合到一个全面的知识库。</td>
+<td></td>
+</tr>
+<tr>
+<td>Cancer LncRNA  Census</td>
+<td>网址：https://www.gold-lab.org/clc   种属信息：人   Cancer LncRNA Census是一项持续的工作，旨在鉴定和分类与癌症有关的lncRNA基因。包含在CLC中的lncRNA必须（1）与癌症有因果关系，并且（2）必须由GENCODE注释。CLC不仅包括来自文献资源的lncRNA，而且还包括来自诱变和CRISPRi筛选的候选癌症lncRNA。CLC提供了高可信度癌症lncRNA的数据集， 诱变图谱是鉴定lncRNA在肿瘤发生中深层保守作用的新颖手段。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncLocator</td>
+<td>网址：http://www.csbio.sjtu.edu.cn/bioinf/lncLocator/   种属信息：人、鼠   功能：lncLocator用于预测lncRNA亚细胞定位。为了充分利用lncRNA序列信息，开发者同时采用无监督深度模型生成的k-mer特征和高级抽象特征，将这两种特征分别输入支持向量机（SVM）和随机森林（RF），构造了四个分类器。然后采用堆叠集成策略对四个分类器进行组合，得到最终的预测结果。目前的lncLocator可以预测5个lncRNA的亚细胞定位，包括细胞质、细胞核、细胞质、核糖体和外泌体，在构建的基准数据集上的总体准确率为0.61。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRMap</td>
+<td>网址：http://lncrnamap.mbc.nctu.edu.tw/php/index.php   种属信息：人类   功能：首先鉴定了lncRNAs并提供了lncRNAs及其同源蛋白编码基因的表达谱。其次，提供了lncRNAs的miRNA调节因子及其同源基因。第三，检测了lncRNA衍生的内源性siRNAs（esiRNAs），并在人类基因组中构建了lncRNA衍生esiRNAs及其相互作用的基因靶点。最后，介绍了lncRNAs之间的邻近基因。</td>
+<td></td>
+</tr>
+<tr>
+<td>oncolnc</td>
+<td>网址：http://starbase.sysu.edu.cn/   种属信息：人   功能：原始数据来源于TCGA数据库的23种肿瘤，主要用于检索lncRNA的表达情况，尤其是直接给出目的lncRNA的cox 回归结果，包含cox相关系数，P值，表达中位数、平均值，还可绘制生存曲线，尤其可通过选择表达的百分位数来进行。并且，分析结果的生存数据也可下载excel，来进一步进行自己绘制生存曲线图。</td>
+<td></td>
+</tr>
+<tr>
+<td>ChIPBase</td>
+<td>网址：https://www.chipbase.co.za/   种属信息：人类   功能：提供长链非编码RNA的表达图谱和转录调控的全面鉴定和注释。整合了高通量的RNA-seq鉴定的lncRNA及其表达图谱和ChIP-Seq实验技术鉴定的转录因子结合位点。这个数据库主要是对于一些lncRNA的表达及lncRNA与转录因子之间的关系的一个注释数据库。主要可以了解与转录因子相关的lncRNA的结合情况。需要注意的是，这个网站只能输入GeneSymbol，其实是lncRNA的转录名，一般是“RP11-XXXX”。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncBook</td>
+<td>网址：http://bigd.big.ac.cn/lncbook/index   种属信息：人类   功能：该数据库中包含以下8种lncRNA相关信息：LncRNAs、Featured LncRNAs、Function、Diseases、Expression、Methylation、Variation、Interaction。①LncRNAs提供lncRNA的ID，染色体位置，长度，外显子个数，类型等基本信息；②Featured LncRNAs只包含来自lncRNAWiki数据库中的有功能注释和文献支持的lncRNA；③Function给出lncRNA的生物学功能注释和参与的生物学过程；④Diseases给出lncRNA相关的疾病信息，包括实验验证和预测两种；⑤Expression通过分析HPA和GTEx两个公共项目的转录组数据，给出lncRNA在各个组织中的FPKM表达值；⑥Methylation通过分析TCGA和ENCODE数据库的数据，给出lncRNA相关的甲基化信息；⑦Variation将dbSNP数据库中的SNP位点映射到lncRNA上，同时提供来自COSMIC和ClinVar数据库的注释信息，以及1000G中的频率信息；⑧Interaction采用targetScan和miRanda两款软件预测lncRNA与miRNA的相互作用，取交集作为最终的结果，实验证据主要来自starbase数据库。</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc2Meth</td>
+<td>网址：http://bio-bigdata.hrbmu.edu.cn/Lnc2Meth/index.jsp   种属信息：人类   功能：主要研究lncRNA上的DNA甲基化位点，提供疾病为主和转录为主的两种检索模式；可区分不同甲基化，高甲基化、低甲基化、甲基化和去甲基化六种模式。对于lncRNA上DNA甲基化模式分为三种：Cis-methylated lncRNA，Trans-Methylation Due to LncRNAs(TMDL)和Trans-Methylation Regulated LncRNA(TMRL)彩蛋功能：对450芯片进行重注释。</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNADisease  v2.0</td>
+<td>网址：http://www.rnanut.net/lncrnadisease/   种属信息：人、小鼠、大鼠   功能：LncRNADisease  v2.0基于文献与相关数据库，整合和收集了有实验和/或计算支持的lncRNA-疾病的关联信息，利用各种证据资源来评估特定lncRNA-疾病关联的可靠性，并提供每个lncRNA-疾病关联的置信度得分。数据库记录了超过20万个lncRNA-疾病关联，是研究lncRNA潜在临床应用的宝贵资源。该数据库还提供lncRNA，mRNA和miRNA之间的转录调控关系。</td>
+<td></td>
+</tr>
+<tr>
+<td>lncACTdb</td>
+<td>网址：http://www.bio-bigdata.net/LncACTdb/index.html   种属信息：人在内20多个物种   功能：LncACTdb2.0是一个更新和显著扩展的数据库,提供了不同物种和疾病相关 ceRNA的综合信 息,成为研究 ceRNAs的重要网络资源。具体包括:(1)从超过5000篇已发表文献中人工筛选 到2663篇具有实验 ce数据支持的 RNA信息(2)将数据库的范围扩大到23个物种和213种疾 病/表型;(3)纳入更多的RNA类型,如环状RNA和假基因;(4)从TCGA数据中鉴定出33种 症类型的候选 IncRNAceRNA相关的互作关系并对其评分;(5)为ceRNA提供存活率、互作网 络和癌症标志的图解信息。</td>
+<td></td>
+</tr>
+<tr>
+<td>NONCODE</td>
+<td>网址：http://www.noncode.org/index.php   种属信息：人类   功能：提供了文献报道的疾病相关的长链非编码RNA的注释。可以输入NCBI的lncRNA名称或者ID，由于这个网站对lncRNA的命名方法是他们网站内部命名的系统，也可以通过lncRNA序列利用Blast的系统，找到lncRNA对应的编号。</td>
+<td></td>
+</tr>
+<tr>
+<td>DIANA tools</td>
+<td>网址：http://carolina.imis.athena-innovation.gr/diana_tools   种属信息：人类   功能：DIANA实验室的重点是在系统分析框架内开发用于解释和归档基因组数据的算法、数据库和工具。目前的重点是对miRNA、lncRNA和蛋白质编码基因的分析及综合模型工作，并整合不同层次的生物学细节数据。DIANA实验室的活动范围包括从深层测序数据分析RNA之间、RNA与蛋白间表达调控，对RNA调控元件和靶点的注释，到对RNA在各种疾病中的作用的解释。</td>
+<td></td>
+</tr>
+<tr>
+<td>GTRD</td>
+<td>网址：http://gtrd.biouml.org   种属：人、小鼠、大鼠、斑马鱼、秀丽隐杆线虫、果蝇、和拟南芥。   功能：主要用作lncRNA转录因子关联分析，通过ChIP-seq 数据库实验鉴定的转录因子结合位点（TFBSs）和转录共激活蛋白。可利用GTRD[7]数据库提供的基因-转录因子关系对以及lncRNA-mRNA的共表达可以构建lncRNA-TF-mRNA的3元调控网络。</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc2Cancer v2.0</td>
+<td>网址：http://www.bio-bigdata.net/lnc2cancer   种属信息：人和小鼠   功能：科学家们越来越重视LncRNA与疾病之间的关联了，Lnc2Cancerv2.0是一个人工整理的专门的关于cirRNA，lcnrna和疾病的数据库，这个数据库包含1.346条记录，包含226种肿瘤亚型，2775条人类的lncrna和743个circrna,这些数据来自超过15000篇发表的文献。这网站也提供了关于一些调控数据的信息，包括mircnra, 转录因子，甲基化信息，增强子等，数据网站可视化很好，结果可下载，维护的很好，是一个很值得用的网站。</td>
+<td></td>
+</tr>
+<tr>
+<td>catRAPID</td>
+<td>网址：http://s.tartaglialab.com/page/catrapid_group   种属：主要基于fasta序列，没区分种属   功能：用来计算蛋白和RNA结合特性的工具，通过整合二级结构、氢键和 范德华力来预测蛋白和RNA的结合可能性。该网站主要有“fragments”、 strength”、“catRAPID omics”、“catRAPID express”、“catRAPID signature”、“catRAPID interactions with large RNAs”，等分析模块。其中，catRAPID omics用于预测某一RNA（或蛋白）的结合蛋白（或RNA），可预测出大量候选</td>
+<td></td>
+</tr>
+<tr>
+<td>LnCeVar</td>
+<td>网址：http://www.bio-bigdata.net/LnCeVar/index.jsp   种属信息：人   功能：这个数据库的来源主要是通过人工整理已经发表的文献或者数据库的高通量测序数据。可以直接检索目的基因，结果包括snp、cnv、manual、somatic-mutation四个部分。此外还支持高级检索，可以看我们研究的lncrna、mrna、mirna、mutaion是否可以形成一个网络，是一个非常高逼格的ceRNA相关的数据库</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA2Target</td>
+<td>网址：http://123.59.132.21/lncrna2target/index.jsp   种属信息：人、鼠   功能：提供从低通量实验或lncRNA敲除或过表达实验后再进行微阵列/ RNA-seq推断的lncRNA-靶标关系的综合资源。用户可以通过该数据库通过搜索lncRNA基因ID或符号来获得lncRNA调控的靶基因，或者通过搜索目标基因ID或符号来获得特定目标基因的调控lncRNA。对于高通量数据，还给出了对应的GEO编号，表达谱数据和差异分析的结果</td>
+<td></td>
+</tr>
+<tr>
+<td>LongTarget</td>
+<td>网址：http://lncrna.smu.edu.cn/show/DNATriplex   种属信息：人和小鼠   功能：该数据库可以预测lncRNA的DNA binding motifs和结合位点。研究人员利用该数据库分析了多个lncRNA，得到了与实验观察和表观遗传标记一致的结果，并且预测结果具有很好的的敏感性和特异性，表明了在全基因组范围内预测多个lncRNA DNA结合motif和位点的可行性。此外，利用该数据库，研究人员还发现lncRNA不仅可以结合启动子区域和CpG位点，还可以结合许多转座因子。是研究lncRNA调控关系的很好的平台</td>
+<td></td>
+</tr>
+<tr>
+<td>LNCat</td>
+<td>网址：http://biocc.hrbmu.edu.cn/LNCat/   种属信息：人   功能：一个基于RNA测序数据集的人类细胞lncRNA定位综合资源。功能如下：（1）LNCat提供了搜索功能，可从13种lncRNA注释资源中浏览lncRNA结构，通过按基因名称，ID或基因组坐标搜索lncRNA来实现所有外显子结构的可视化，从而有助于在这些注释中发现常见（或唯一）外显子结构资源。（2）可视化，从多个角度展示了不同资源之间的比较分析结果，包括基因组信息（外显子数量，基因长度，基因组覆盖率，lncRNA的类别，基因组距离，保守和重复元件），表达，组织特异性，染色质签名和功能。（3）下载。LNCat允许用户以可用的任何注释级别（包括基因级别，转录级别和区域级别）下载每种资源的所有lncRNA注释</td>
+<td></td>
+</tr>
+<tr>
+<td>ExoBCD</td>
+<td>网址：http://www.cuilab.cn/lncrnadisease   种属信息：人   功能：数据库乳腺癌乳腺癌外泌体研究相关的信息。数据库总结了文献数据以及Cancer RNA-Seq  Nexus，GEO，ArrayExpress，Expression Atlas， cBioPortal 等多个数据库数据。目前一共有306（49PBs和257BIMs）个乳腺癌外泌体相关分子，包括lncRNA，miR和mRNA。含有乳腺癌外泌体相关基因功能富集结果及靶标，相关miRNA-mRNA互作网络，文献信息，生存预后，基因列表和功能注释信息</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNome</td>
+<td>网站:http://genome.igib.res.in/lncRNome   种属信息：人   功能:超过18000转录本目前已作为lncRNA标注，覆盖先前注释非编码转录本，包括大型基因间非编码RNA，反义RNA和加工的假基因。但在提供稳定的注释，交叉引用和生物相关的信息资源方面有显著的差距。由印度CSIR基因组和整合生物学研究所开发的lncRNome，旨在填补这一空白，他们通过把生物显著性的各种各样的信息注释整合到一个全面的知识库。</td>
+<td></td>
+</tr>
+<tr>
+<td>RNALocate</td>
+<td>网址：http://www.rna-society.org/rnalocate/   种属信息：人和小鼠   功能：RNALocate旨在为RNA亚细胞定位的有效操作、浏览和分析提供一个资源。它提供了一个方便的用户友好界面来查询、浏览和可视化这些RNA亚细胞地位的详细信息。RNALocate将有助于阐明整个rna相关亚细胞定位，并发展新的预测方法。目前版本包括了19万多个与RNA相关的亚细胞定位条目，并有实验和预测证据，涉及65个物种的10.5万多个RNA和44个亚细胞定位，主要包括智人、小鼠等。</td>
+<td></td>
+</tr>
+<tr>
+<td>AnnoLnc2</td>
+<td>网址：http://annolnc.gao-lab.org/index.php   种属信息：人、鼠   功能：该数据库提供丰富的lncRNA的注释功能，注释内容涵盖了序列和结构、表达和调控、功能和相互作用、以及演化和遗传关联，为研究长非编码RNA的功能及其作用机制提供了高效、全面的分析平台，并为后续的生物学研究提供了重要的线索。例如，演化模块的注释结果可以揭示长非编码RNA是否具有保守的功能；亚细胞定位模块的注释结果可以揭示它们在何处发挥功能；功能富集模块的注释结果可以揭示它们发挥怎样的功能；miRNA调控和蛋白相互作用模块的注释结果可以揭示潜在的功能机制等。</td>
+<td></td>
+</tr>
+<tr>
+<td>RNAcentral</td>
+<td>整合了多个数据库，并且提供4个重要的功能： text search, sequence similarity search, bulk  downloads, and programmatic data access.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>参考文献：</strong></p>
+<p>[1] Zhang L, Li Z, Skrzypczynska K M, et al. Single-Cell Analyses Inform Mechanisms of Myeloid-Targeted Therapies in Colon Cancer[J]. Cell, 2020, 181(2): 442-459.e29.</p>
+<p>[2] Cheng S, Li Z, Gao R, et al. A pan-cancer single-cell transcriptional atlas of tumor infiltrating myeloid cells[J]. Cell, 2021, 184(3): 792-809.e23.</p>
+<p>[3] Zhou M, Zhang Z, Bao S, et al. Computational recognition of lncRNA signature of tumor-infiltrating B lymphocytes with potential implications in prognosis and immunotherapy of bladder cancer[J]. Briefings in Bioinformatics, 2020, 22(3).</p>
+<p>[4] Wei J, Dou Q, Ba F, et al. Development a Prognostic Model Integrating lncRNA/mRNA novel Biomarkers Identified by Bioinformatics Analysis and Experiments in Breast Cancer[J], 2021.</p>
+<p>[5] Brazão T F, Johnson J S, Müller J, et al. Long noncoding RNAs in B-cell development and activation[J]. Blood, The Journal of the American Society of Hematology, 2016, 128(7): e10-e19.</p>
+<p>[6] Zhang Z, Yan C, Li K, et al. Pan-cancer characterization of lncRNA modifiers of immune microenvironment reveals clinically distinct de novo tumor subtypes[J]. npj Genomic Medicine, 2021, 6(1): 1-11.</p>
+<p>[7] Zhang Y, Liu Q, Liao Q. Long noncoding RNA: a dazzling dancer in tumor immune microenvironment[J]. Journal of Experimental &amp; Clinical Cancer Research, 2020, 39(1): 231.</p>
+<p>[8] Zhou Y, Zhu Y, Xie Y, et al. The Role of Long Non-coding RNAs in Immunotherapy Resistance[J]. Frontiers in Oncology, 2019, 9(1292).</p>
+<p>[9] Han Y, Liu D, Li L. PD-1/PD-L1 pathway: current researches in cancer[J]. American journal of cancer research, 2020, 10(3): 727-742.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long non-coding RNA and tumor immune infiltration]]></title>
+        <id>https://lumluminous.github.io/blog/post/long-non-coding-rna-and-tumor-immune-infiltration/</id>
+        <link href="https://lumluminous.github.io/blog/post/long-non-coding-rna-and-tumor-immune-infiltration/">
+        </link>
+        <updated>2022-07-08T07:14:48.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>Tengyun Ma</p>
+<p>**摘要：**LncRNA是一类结构复杂、作用机制繁多、异质性大的RNA转录本。LncRNA是免疫系统中的关键调控元件，调控免疫细胞的活化和稳态，并在不同免疫细胞谱系的发育和分化中发挥重要作用。LncRNA参与调控肿瘤免疫微环境的基因重编程，参与肿瘤微环境中免疫反应的各种过程，引起特定免疫细胞亚群在组织的异常浸润或比例失调，影响肿瘤的免疫逃逸和免疫治疗效果。目前关于LncRNA与肿瘤治疗的研究局限于某些癌症类型和某些细胞，缺少LncRNA与肿瘤免疫浸润环境的整体观。对本文阐述了已知的LncRNA的免疫调节机制和在肿瘤免疫微环境中的作用，以期为肿瘤治疗提供潜在的诊断标志和治疗靶点。</p>
+<p>**关键词：**长链非编码RNA　肿瘤免疫　肿瘤浸润淋巴细胞　免疫治疗</p>
+<p><strong>通信地址：</strong> 2011110009@bjmu.edu.cn</p>
+<p><strong>0</strong>　<strong>引言</strong></p>
+<p>肿瘤的发展进程很大程度上归因于独特的肿瘤免疫微环境(TME)，这种微环境由多种基质细胞维持，包括血管、平滑肌细胞、上皮细胞、脂肪细胞、肿瘤相关成纤维细胞、免疫细胞以及细胞外基质和丰富的信号分子[1]。肿瘤免疫微环境(TIME)主要由髓系细胞、淋巴细胞和一些固有免疫细胞组成。髓系细胞包括巨噬细胞、中性粒细胞和髓系来源抑制细胞(MDSCs)；淋巴细胞包括B细胞、CD4+辅助T细胞(Th)、调节性T细胞(Treg)、CD8+细胞毒性T细胞(CTL)；固有免疫细胞包括自然杀伤细胞(NK)和树突状细胞(DC)。</p>
+<p>由于肿瘤浸润免疫细胞识别和杀伤肿瘤所必需的基因和蛋白的改变，效应T淋巴细胞和自然杀伤细胞在肿瘤微环境中的作用有限。免疫抑制性细胞和细胞因子的积聚也可能会抑制效应器免疫细胞的功能。以上肿瘤微环境的免疫抑制特点会影响免疫治疗的效果，虽然针对肿瘤的免疫抑制策略集中在阻断免疫检查点受体、增强T细胞的特异性识别和中和抑制性细胞因子等方面，但是免疫耗竭和耐药性是肿瘤治疗中的两大障碍。</p>
+<p>一些研究表明，长非编码RNA(LncRNA)积极参与了肿瘤微环境的各种过程，可作为癌基因或抑癌基因发挥作用[2]。目前关于LncRNA的肿瘤免疫调节研究只要局限于某些癌症类型和某些细胞，如大多数研究集中于T细胞和髓系抑制性细胞。研究思路普遍为A基因通过B基因/信号通路在C疾病中发挥D功能的模式，很多研究结果是基于细胞培养系统，在某种程度上很难代表体内错综复杂的环境，限制了我们全面探索在肿瘤免疫中有作用的LncRNA。在新一代测序和计算机深度学习的背景下，本文综述了LncRNA的生物学特性、在肿瘤免疫浸润环境中的作用机制和免疫治疗反应中的潜在价值。</p>
+<p><strong>1</strong>   <strong>LncRNA<strong><strong>的</strong></strong>A****的定义和分类</strong></p>
+<p>1.1　LncRNA的定义</p>
+<p>人类基因组中仅有2%是编码区，其余98%基因不能编码蛋白质和多肽[3,4]。非编码RNA在转录组中占比非常大，根据基因组生物学数据库GENECODE version38[5]的统计结果，人类非编码RNA数目占基因总数的67%。非编码RNA种类繁多，主要包括小非编码RNA（miRNAs）、长链非编码RNA（LncRNAs）和环状非编码RNA(circRNAs)[6]。</p>
+<p>长链非编码RNA(long non-coding RNA，LncRNA)的长度超过200个核苷酸，缺少完整的开放阅读框，是一类缺乏或只有有限蛋白编码能力的RNA转录本[7-9]。与蛋白质编码转录物相似，LncRNA主要由RNA聚合酶Ⅱ或Ⅲ转录，但在其他真核生物中也可通过RNA聚合酶Ⅴ转录[10]。</p>
+<p>1.2　LncRNA的分类</p>
+<p>由于LncRNA通常缺乏明显的序列特征且一级序列保守性差，难以根据序列信息对LncRNA进行分类。当前LncRNA的分类是主要基于其附近蛋白质编码基因在基因组中的相对位置[11,12]，可分为6类：正义LncRNA、反义LncRNA、双向LncRNA、内含子LncRNA、基因间LncRNA和增强子[13]。关于LncRNA的研究主要集中在近20年，目前发现的人类LncRNA基因数目约为基因总数的30%（图1）。</p>
+<p>​</p>
+<p>图1　GENCODE v38中人类基因的统计情况</p>
+<p>本图数据来源于<a href="http://www.gencodegenes.org/">www.gencodegenes.org/</a>，LncRNA是占比最大的一类ncRNA，人类中发现了17944个转录本，然而这些转录本介导的生理效应大多数是未知的。</p>
+<p><strong>2</strong>　<strong>LncRNA****的调控机制</strong></p>
+<p>LncRNA参与许多生物学过程，如染色体修饰、转录或转录后调控、调控mRNA的稳定性、调控蛋白翻译、参与蛋白修饰等[14,15]。LncRNA可定位在不同的亚细胞结构中，并且它们的功能及调控机制与亚细胞定位密切相关。位于核内的LncRNA具有较高的稳定性，这与LncRNA在基因表达表观遗传调控中的主要功能一致。定位于细胞质LncRNA发挥包括翻译调控在内的重要功能[16,17]。</p>
+<p>LncRNA已经成为基因编码的关键组成部分，通过将蛋白质复合物、基因和染色体运送到特定的位置，进而将基因激活或抑制[18]。LncRNA主要包括四种可能的作用机制：信号（signal）分子、诱饵（decoy）分子、引导（guid）分子、支架（scaffold）分子。在特定的环境中，LncRNA可能不是单独以一种模式发挥功能，而是以两种或以上联合来发挥功能[19,20]。</p>
+<p>2.1　signal-信号</p>
+<p>LncRNA的第一种作用是调控下游基因转录。已有的研究发现，不同的刺激条件和信号通路下，LncRNA将会被特异性地转录，并作为信号传导分子参与特殊信号通路的传导。一些LncRNA分子被转录后，拥有调控下游基因转录的作用。从生物体的角度而言，利用RNA进行转录调控是具有明显优势的，因为利用RNA进行调控，由于不涉及蛋白质的翻译，因此具有更好的反应速度，对于机体的某些急性反应可以做出更好更迅速的相应。</p>
+<p>2.2　decoy-诱饵</p>
+<p>LncRNA的第二种作用是分子阻断剂。这一类LncRNA被转录后，它会直接和蛋白（与这类LncRNA相互作用的蛋白都是转移因子/转录调节子）结合，从而阻断了该分子的作用和信号通路。由于LncRNA的结合，这类转录因子的功能被阻断，从而调控下游的基因转录。</p>
+<p>2.3　guide-引导</p>
+<p>第三种作用模式是LncRNA与蛋白结合（通常是转录因子），然后将蛋白复合物定位到特定的DNA序列上。研究发现LncRNA介导的这种转录调控作用可以是顺式作用模式，也可以是反式作用机制，因此仅仅从LncRNA的序列上是无法获得信息的。</p>
+<p>2.4　scaffold-支架</p>
+<p>LncRNA 还可以起到一个“中心平台”的作用，即多个相关的转录因子都可以结合在这个LncRNA分子上。在细胞机体中，当多条信号通路同时被激活，这些下游的效应分子可以结合到同一条LncRNA分子上，实现不同信号通路之间的信息交汇和整合，有利于机体/细胞迅速地对外界信号和刺激产生反馈和调节。</p>
+<p><strong>3</strong>　<strong>LncRNA****与肿瘤免疫</strong></p>
+<p>LncRNA可参与调控机体的天然免疫和适应性免疫应答，在许多自身免疫性疾病、炎症疾病和肿瘤的发生、发展过程中起着非常重要的作用[21]。近20年来与肿瘤相关的LncRNA研究进展飞速，在不同肿瘤中差异表达的LncRNA陆续被鉴定，其肿瘤免疫治疗的潜能也陆续被挖掘（图2）。如Li等[22]发现并命名了具有增强肿瘤细胞MHC-I表达和免疫原性的功能的LncRNA -LIMIT。激活LIMIT则可以大幅增强肿瘤组织的T细胞浸润与活化，增强免疫细胞对肿瘤的杀伤。Song等[23]发现LncRNA通过调控T细胞亚群的凋亡敏感性造成肿瘤的免疫逃逸。通过靶向NKILA LncRNA能够保护T细胞顺利识别肿瘤细胞，为过继细胞免疫治疗提供了新的思路。</p>
+<p>与循环中的miRNA类似，在癌症患者的痰、血液和尿液中也可以通过RT-PCR检测到LncRNA，此外，LncRNA与DNA、RNA和蛋白质都有相互作用，具有高度的组织特异性和细胞特异性[24]，很适合作为肿瘤诊断和免疫治疗的靶标。LncRNA不仅是反映肿瘤状态的标志物，而且是肿瘤生长转移能力的重要贡献者。据统计，63.1%的LncRNA可促进肿瘤的生长和侵袭，28.7%的LncRNA抑制肿瘤的发生发展，10%有致癌和抑癌基因双重作用，具体作用取决于肿瘤类型[2,25]。</p>
+<p>虽然LncRNA在一系列生物过程中的功能已经得到证实[26]，然而对于它们在肿瘤微环境和肿瘤浸润淋巴细胞中的作用仍然知之甚少（图3）。鉴于此，本文回顾了近年来LncRNA与的最新研究，特别是LncRNA调控肿瘤浸润免疫细胞中的功能。</p>
+<p>图2　LncRNA与多种癌症相关[27]</p>
+<p>前列腺癌、肺癌、乳腺癌、肝癌、结直肠癌癌、膀胱癌、胃癌和淋巴细胞白血病等恶性肿瘤中都存在差异表达的LncRNA。</p>
+<p>图3　肿瘤微环境细胞组成的异质性[28,29]</p>
+<p>肿瘤微环境由不同种类的细胞组成，主要包括肿瘤相关成纤维细胞、血管内皮细胞和免疫浸润。针对肿瘤免疫微环境的各种组分发展了不同类型的肿瘤免疫疗法，长非编码RNA有望为增强肿瘤免疫治疗的疗效提供新型靶标。</p>
+<p><strong>4</strong>　<strong>LncRNA****对肿瘤免疫微环境的调控作用</strong></p>
+<p>4.1　LncRNA对TAM的调控作用</p>
+<p>静息的巨噬细胞(M0)可以极化为M1和M2型巨噬细胞，在一定范围内，大多数肿瘤相关巨噬细胞(TAM)处于M1和M2型之间的状态[30]。M2型巨噬细胞极化促进肿瘤的免疫耐受，巨噬细胞的M2极化是其免疫耐受功能的必要条件，这可能会促进肿瘤的进展。LncRNA可调控下游靶蛋白的表达来调控M1/M2巨噬细胞的极化、调节TAM蛋白分泌能力，从而促进或抑制肿瘤生存和免疫逃逸[31-33]。</p>
+<p>此外，TAM还可以吞噬和内化肿瘤来源的外泌体，这些外泌体富含具有调节功能的LncRNA，可以诱导巨噬细胞极化[31,34]。除此之外，LncRNA还参与从循环单核细胞中募集巨噬细胞[32,34]（表1）。</p>
+<p>4.2　LncRNA对MDSC的调控作用</p>
+<p>MDSCs包括两种主要类型的细胞，称为单核细胞(M-MDSCs)和多形核细胞(PMN-MDSCs)。大量研究表明，LncRNA参与MDSCs的分化和免疫抑制功能，并发挥重要的调节作用。目前为止大多数关于MDSCs的实验都是在小鼠身上使用小鼠癌细胞进行的。在人类肺癌中，患者外周血单个核细胞中的LncRNA-MALAT1减少，并负向调节MDSCs的数量和比例。LncRNA-HOTAIRM1和LncRNA-RUNXOR都与MDSCs的免疫抑制紧密相连[35-37]。</p>
+<p>4.3　LncRNA对中性粒细胞的调控作用</p>
+<p>中性粒细胞寿命很短，其培养和处理有技术上的困难。因此，目前研究肿瘤微环境中性粒细胞与LncRNA之间关系的文献很少。LncRNA可能通过影响其数量、表型、表达和调节蛋白的分泌，在中性粒细胞相关疾病(包括炎症损伤、移植和癌症)的发病机制中发挥作用。LncRNA与肿瘤相关中性粒细胞之间的调控关系是一个值得探讨的未知领域。</p>
+<p>4.4　LncRNA对DC细胞的调控作用</p>
+<p>LncRNA能够通过与DC细胞质中的信号分子相互作用和调节翻译后修饰来调节DC的浸润、分化、代谢，并影响包括T细胞在内的其他免疫细胞，从而微调局部免疫环境。Lnc-DC与细胞质中的STAT3结合，通过保护STAT3不与SHP1结合并使其去磷酸化来刺激STAT3在酪氨酸-705上的磷酸化[38]。CCR7趋化因子受体诱导的Lnc-Dpf3通过抑制HIF-1α介导的糖酵解抑制DC迁移[39,40]。</p>
+<p>4.5　LncRNA对B细胞的调控作用</p>
+<p>到目前为止，肿瘤环境中LncRNA和B细胞的研究很少，大多数研究集中在B细胞发育和成熟过程中LncRNA功能障碍引发的B细胞相关淋巴瘤。在临床上，多种LncRNA与B细胞相关淋巴瘤患者的预后相关。可溶性Fas受体(sFas)可阻止Fas配体诱导的细胞凋亡。LncRNA Fas-AS1受EZH2介导组蛋白甲基化调控，是一种新的sFas表达调节因子[41]。</p>
+<p>4.6　LncRNA对Treg的调控作用</p>
+<p>LncRNA在表观遗传控制Tregs命运的过程中起着重要作用。例如，LncRNA-Smad3协调Smad3位点的可及性来调节iTreg极化[42]。Foxp3的负调控因子LncRNA-FLICR在DC中特异表达，FLICR可以抑制抗病毒免疫，并通过降低Treg活性来加重自身免疫性疾病[43]。在局部微环境中细胞因子或抗原的诱导下，Treg内的调节性LncRNAs也表现出相应的变异，促进Treg的适应性变化。LncRNA-POU3F3通过募集TGF-β和激活TGF-β/Smad2/3途径，正调控Treg分化[44]。Lnc-EGFR以EGFR依赖的方式促进Treg分化[45]。</p>
+<p>4.7　LncRNA对CLT的调控作用</p>
+<p>CD8+T细胞中LncRNA对抗病毒过程的应答机制可能为癌症中LncRNA的研究提供参考。LncRNA在CD8+T细胞的凋亡、扩增和细胞毒作用中起着关键作用。在某种程度上，它们通过调节肿瘤环境中的CD8+CLT来决定免疫方向，无论是抗癌还是促癌。LncRNA-NEAT1可通过与miR-155靶向TIM-3结合来抑制CD8+T细胞的凋亡，增强其杀灭肿瘤活性[46]；此外，通过表观遗传抑制p53/cGAS/STING通路，NEAT1可直接与DNMT1相互作用，调节CD8+T细胞的浸润和T细胞肿瘤特异性免疫反应[47]。</p>
+<p>4.8　LncRNA对NK的调控作用</p>
+<p>许多LncRNA参与了NK分化过程。一项对NK特异性LncRNA研究发现，LncRNA为不同的NK群体提供了特异性的信号，这可能有利于NK细胞在不同环境下形成不同功能和表型[48]。Lnc-CD56(又称AB128931)在人NK细胞中的表达显著上调，并且与CD56的表达密切相关，CD56是NK细胞的典型表面标志，参与NK细胞的发育[48]。</p>
+<p>LncRNA的表达与NK相关的癌症进展有内在联系。癌症患者NK细胞中LncRNA-Gas5水平降低。Gas5的表达通过靶向miR-544靶向RUNX3，增加NK细胞的杀伤活性、IFN-γ的分泌和CD107a+NK细胞的比例，从而增强NK细胞的杀伤作用[49]。LncRNA Gas5还通过调节miR-18a，增强NK细胞分泌IFN-γ、TNF-α及NK细胞对胃癌的杀伤作用[50]。</p>
+<p>表 1 参与肿瘤浸润免疫微环境相关功能的LncRNA</p>
+<table>
+<thead>
+<tr>
+<th><strong>LncRNA</strong></th>
+<th><strong>免疫细胞</strong></th>
+<th><strong>转录因子</strong></th>
+<th><strong>调节机制</strong></th>
+<th><strong>参考文献</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tmevpg1(NeST)</td>
+<td>Th1、CD8+T、NK</td>
+<td>STAT4  T-bet</td>
+<td>结合组蛋白修饰酶WDR5正调控IFN-γ转录和Th1分化</td>
+<td>[51,52]</td>
+<td></td>
+</tr>
+<tr>
+<td>Linc-MAF-4</td>
+<td>Th1、Th2</td>
+<td>MAF</td>
+<td>通过染色质重塑抑制MAF转录，调节Th1/Th2分化</td>
+<td>[53]</td>
+<td></td>
+</tr>
+<tr>
+<td>Th2-LCR</td>
+<td>Th2</td>
+<td>GATA3</td>
+<td>LCR LncRNA由4个可变剪接转录本组成，调控IL-4、IL-5、IL-13表达</td>
+<td>[54]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA-Gata3-AS1</td>
+<td>Th2</td>
+<td>GATA3</td>
+<td>调控IL-5、IL-13表达，诱导Th2型极化</td>
+<td>[55]</td>
+<td></td>
+</tr>
+<tr>
+<td>LincR-Ccr2-5′AS</td>
+<td>Th2</td>
+<td>GATA3</td>
+<td>抑制Ccr1、Ccr3、Ccr2 和 Ccr5表达，减弱了Th2细胞的迁移能力</td>
+<td>[56,57]</td>
+<td></td>
+</tr>
+<tr>
+<td>NRON</td>
+<td>静止T</td>
+<td>NFAT</td>
+<td>NRON组织NFAT核转位，抑制T细胞活化（表观沉默）</td>
+<td>[58,59]</td>
+<td></td>
+</tr>
+<tr>
+<td>RMRP</td>
+<td>Th17</td>
+<td>RORγt</td>
+<td>与DDX5密切相关，促进RORγt表达，通过miR-206活化PI3K/AKT/mTOR信号通路</td>
+<td>[60,61]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA-MEG3</td>
+<td>Th17</td>
+<td>RORγt</td>
+<td>调节Treg/Th17平衡</td>
+<td>[62]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-EGFR</td>
+<td>Treg</td>
+<td>EGFR</td>
+<td>正调控Treg分化</td>
+<td>[45]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-Smad3</td>
+<td>Treg</td>
+<td>Smad3</td>
+<td>抑制Smad3转录，抑制Treg分化</td>
+<td>[42]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA Flicr</td>
+<td>Treg</td>
+<td>Foxp3</td>
+<td>抑制Foxp3转录，负调控Treg分化</td>
+<td>[43]</td>
+<td></td>
+</tr>
+<tr>
+<td>Linc-POU3F3</td>
+<td>Treg</td>
+<td>Smad2/3</td>
+<td>正调控Treg分化</td>
+<td>[44]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA-CD244</td>
+<td>CD8+T</td>
+<td>EZH2</td>
+<td>H3K27甲基化，抑制CD8+T细胞IFN-γ和TNFα的表达</td>
+<td>[63]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA FAS-AS1</td>
+<td>B细胞</td>
+<td>FAS</td>
+<td>FAS-AS1调控sFas与B细胞淋巴瘤中的Fas结合,促进B细胞淋巴瘤凋亡</td>
+<td>[41]</td>
+<td></td>
+</tr>
+<tr>
+<td>HOTAIR</td>
+<td>B细胞</td>
+<td>PI3K/AKT/NF-κB pathway</td>
+<td>促进细胞增殖</td>
+<td>[64]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-Lsm3b</td>
+<td>巨噬细胞</td>
+<td>RIG-1</td>
+<td>抑制RIG-1活性，抑制IFN-γ产生</td>
+<td>[65]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-ACOD1</td>
+<td>巨噬细胞</td>
+<td>/</td>
+<td>与GOT蛋白相互作用，调控代谢</td>
+<td>[66]</td>
+<td></td>
+</tr>
+<tr>
+<td>LincRNA-Cox2</td>
+<td>巨噬细胞</td>
+<td>HnRNPA/B</td>
+<td>受Toll样受体诱导，结合hnRNPs调控IL-6表达；调节巨噬细胞凋亡；激活炎性小体；抑制CCL5</td>
+<td>[33,67]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-DC</td>
+<td>树突状细胞</td>
+<td>STAT3</td>
+<td>抑制DC糖酵解，促进STAT3磷酸化，激活JAK/STAT通路，调控DC分化</td>
+<td>[38]</td>
+<td></td>
+</tr>
+<tr>
+<td>BCRT1</td>
+<td>巨噬细胞</td>
+<td>PTBP3</td>
+<td>外泌体介导的促进巨噬细胞M2极化，加速肿瘤进展</td>
+<td>[31]</td>
+<td></td>
+</tr>
+<tr>
+<td>TUC339</td>
+<td>巨噬细胞</td>
+<td>/</td>
+<td>调控巨噬细胞活化和极化</td>
+<td>[34]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-IL7R</td>
+<td>髓系细胞Toll样受体</td>
+<td>H3K27me3</td>
+<td>介导促炎基因启动子的染色质沉默，通过负反馈调节避免炎症基因过表达</td>
+<td>[68,69]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA HOTAIRM1</td>
+<td>髓系细胞  Toll样受体</td>
+<td>H3K27me3</td>
+<td>DC分化负调控因子，维持单核细胞表型</td>
+<td>[70]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncMALAT1</td>
+<td>巨噬细胞</td>
+<td>NF-κB</td>
+<td>诱导tDC和Treg，负调控炎症反应</td>
+<td>[71]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-NEAT1</td>
+<td>Th17</td>
+<td>E2F3  SFPQ  STAT3</td>
+<td>提高ROS水平，激活IL-8转录，诱导细胞凋亡和炎症，促进Th17分化</td>
+<td>[71-73]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA RP11-98D18.3/AL450992.2/AC007182.6/IL21R.AS1</td>
+<td>Th17</td>
+<td>RORC</td>
+<td>抑制Th17分化</td>
+<td>[74]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-Dpf3</td>
+<td>DC</td>
+<td>HIF-1α</td>
+<td>减弱CCR7介导的DC迁移</td>
+<td>[39]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA-NTT</td>
+<td>THP-1巨噬细胞</td>
+<td>AKT-P53  C/EBPβ</td>
+<td>通过hnRNPU与PBOV1结合，影响巨噬细胞分化</td>
+<td>[75]</td>
+<td></td>
+</tr>
+<tr>
+<td>THRIL</td>
+<td>巨噬细胞</td>
+<td>hnRNPL</td>
+<td>对TNF-α负反馈调节</td>
+<td>[76]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA- PACER</td>
+<td>巨噬细胞</td>
+<td>NF-κB</td>
+<td>促进炎症反应激活</td>
+<td>[77]</td>
+<td></td>
+</tr>
+<tr>
+<td>LncRNA- Lethe</td>
+<td>巨噬细胞</td>
+<td>NF-κB</td>
+<td>抑制炎症反应</td>
+<td>[78]</td>
+<td></td>
+</tr>
+<tr>
+<td>RUNXOR</td>
+<td>MDSCs</td>
+<td>RUNX1</td>
+<td>调控MDSCs的免疫抑制功能</td>
+<td>[36]</td>
+<td></td>
+</tr>
+<tr>
+<td>HOTAIRM1</td>
+<td>MDSCs</td>
+<td>HOXA1</td>
+<td>调控MDSCs的免疫抑制功能</td>
+<td>[37]</td>
+<td></td>
+</tr>
+<tr>
+<td>Lnc-C/EBPβ</td>
+<td>MDSCs</td>
+<td>C/EBPβ</td>
+<td>靶基因调控MDSCs的免疫抑制功能和分化</td>
+<td>[79]</td>
+<td></td>
+</tr>
+<tr>
+<td>MALAT1</td>
+<td>中性粒细胞</td>
+<td>p300, IL-8</td>
+<td>通过下调p300缓解炎症损伤</td>
+<td>[80]</td>
+<td></td>
+</tr>
+<tr>
+<td>GAS5</td>
+<td>NK cells</td>
+<td>RUNX3</td>
+<td>增强NK的杀伤功能</td>
+<td>[49]</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>图4　LncRNAs在T细胞中的作用机制[29]</p>
+<p>(A) 来自肿瘤细胞的外泌体SNHG16和RP11-323N12.5被T细胞内吞影响其分化</p>
+<p>(B) 耗竭的CD8+T细胞分泌大量外泌体，这些外泌体被正常的CD8+T细胞吸收</p>
+<p><strong>4</strong>　<strong>结语与展望</strong></p>
+<p>LncRNA作为非编码RNA中的新角色，已经成为免疫学关注的热点。新一代测序技术与计算机深度学习系统的建立成熟使我们逐步揭示了LncRNA的重要生物学功能。本文简述了LncRNA的生物学功能和肿瘤免疫治疗潜力。随后讨论了肿瘤免疫微环境中的LncRNA的最新进展及其在肿瘤浸润免疫细胞之间的相互作用和分子机制。如何安全有效地靶向这些强大免疫调节功能的LncRNA和发现更多肿瘤特异性LncRNA（和circRNA）并阐明机制是当前面临的主要问题。由于篇幅所限，本文未讨论LncRNA的最新研究方法和免疫治疗策略。</p>
+<p>综上所述，LncRNA在肿瘤微环境中的功能重要性逐渐显现，其免疫调控机制与临床应用仍需进一步研究。随着研究的深入，LncRNA将开辟肿瘤免疫治疗的新纪元。</p>
+<p>参考文献</p>
+<p>[1] Greten F R, Grivennikov S I. Inflammation and cancer: triggers, mechanisms, and consequences[J]. Immunity, 2019, 51(1): 27-41.</p>
+<p>[2] Yang G, Lu X, Yuan L. LncRNA: A link between RNA and cancer[J]. Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms, 2014, 1839(11): 1097-1109.</p>
+<p>[3] 陈玲玲, 冯珊珊, 范祖森, et al. 非编码RNA研究进展[J]. 中国科学:生命科学, 2019, 49(12): 1573-1605.</p>
+<p>[4] Djebali S, Davis C A, Merkel A, et al. Landscape of transcription in human cells[J]. Nature, 2012, 489(7414): 101-8.</p>
+<p>[5] Frankish A, Diekhans M, Jungreis I, et al. GENCODE 2021[J]. Nucleic Acids Research, 2021, 49(D1): D916-D923.</p>
+<p>[6] Wei J W, Huang K, Yang C, et al. Non-coding RNAs as regulators in epigenetics (Review)[J]. Oncol Rep, 2017, 37(1): 3-9.</p>
+<p>[7] Brosnan C A, Voinnet O. The long and the short of noncoding RNAs[J]. Current opinion in cell biology, 2009, 21(3): 416-425.</p>
+<p>[8] Marques A C, Ponting C P. Catalogues of mammalian long noncoding RNAs: modest conservation and incompleteness[J]. Genome biology, 2009, 10(11): 1-12.</p>
+<p>[9] Ørom U A, Derrien T, Beringer M, et al. Long noncoding RNAs with enhancer-like function in human cells[J]. Cell, 2010, 143(1): 46-58.</p>
+<p>[10] Böhmdorfer G, Sethuraman S, Rowley M J, et al. Long non-coding RNA produced by RNA polymerase V determines boundaries of heterochromatin[J]. Elife, 2016, 5: e19092.</p>
+<p>[11] Cabili M N, Trapnell C, Goff L, et al. Integrative annotation of human large intergenic noncoding RNAs reveals global properties and specific subclasses[J]. Genes &amp; development, 2011, 25(18): 1915-1927.</p>
+<p>[12] Iyer M K, Niknafs Y S, Malik R, et al. The landscape of long noncoding RNAs in the human transcriptome[J]. Nature genetics, 2015, 47(3): 199-208.</p>
+<p>[13] Fernandes J C R, Acuña S M, Aoki J I, et al. Long Non-Coding RNAs in the Regulation of Gene Expression: Physiology and Disease[J]. Non-Coding RNA, 2019, 5(1): 17.</p>
+<p>[14] Wang K C, Chang H Y. Molecular mechanisms of long noncoding RNAs[J]. Molecular cell, 2011, 43(6): 904-914.</p>
+<p>[15] Geisler S, Coller J. RNA in unexpected places: long non-coding RNA functions in diverse cellular contexts[J]. Nature reviews Molecular cell biology, 2013, 14(11): 699-712.</p>
+<p>[16] Clark M B, Mattick J S. Long noncoding RNAs in cell biology[C]. Seminars in cell &amp; developmental biology, 2011: 366-376.</p>
+<p>[17] Derrien T, Johnson R, Bussotti G, et al. The GENCODE v7 catalog of human long noncoding RNAs: analysis of their gene structure, evolution, and expression[J]. Genome research, 2012, 22(9): 1775-1789.</p>
+<p>[18] Batista P J, Chang H Y. Long noncoding RNAs: cellular address codes in development and disease[J]. Cell, 2013, 152(6): 1298-1307.</p>
+<p>[19] Rinn J L, Chang H Y. Genome regulation by long noncoding RNAs[J]. Annual review of biochemistry, 2012, 81: 145-166.</p>
+<p>[20] Ulitsky I, Bartel D P. lincRNAs: genomics, evolution, and mechanisms[J]. Cell, 2013, 154(1): 26-46.</p>
+<p>[21] Zhang Q, Cao X. Epigenetic regulation of the innate immune response to infection[J]. Nature Reviews Immunology, 2019, 19(7): 417-432.</p>
+<p>[22] Li G, Kryczek I, Nam J, et al. LIMIT is an immunogenic LncRNA in cancer immunity and immunotherapy[J]. Nature Cell Biology, 2021, 23(5): 526-537.</p>
+<p>[23] Huang D, Chen J, Yang L, et al. NKILA LncRNA promotes tumor immune evasion by sensitizing T cells to activation-induced cell death[J]. Nature Immunology, 2018, 19(10): 1112-1125.</p>
+<p>[24] Guttman M, Amit I, Garber M, et al. Chromatin signature reveals over a thousand highly conserved large non-coding RNAs in mammals[J]. Nature, 2009, 458(7235): 223-7.</p>
+<p>[25] Carlevaro-Fita J, Lanzós A, Feuerbach L, et al. Cancer LncRNA Census reveals evidence for deep functional conservation of long noncoding RNAs in tumorigenesis[J]. Communications Biology, 2020, 3(1): 56.</p>
+<p>[26] Mattick J S, Rinn J L. Discovery and annotation of long noncoding RNAs[J]. Nature structural &amp; molecular biology, 2015, 22(1): 5-7.</p>
+<p>[27] Bhan A, Soleimani M, Mandal S S. Long noncoding RNA and cancer: a new paradigm[J]. Cancer research, 2017, 77(15): 3965-3981.</p>
+<p>[28] Junttila M R, De Sauvage F J. Influence of tumour micro-environment heterogeneity on therapeutic response[J]. Nature, 2013, 501(7467): 346-354.</p>
+<p>[29] Zhang Y, Liu Q, Liao Q. Long noncoding RNA: a dazzling dancer in tumor immune microenvironment[J]. Journal of Experimental &amp; Clinical Cancer Research, 2020, 39(1): 231.</p>
+<p>[30] Mantovani A, Allavena P. The interaction of anticancer therapies with tumor-associated macrophages[J]. Journal of Experimental Medicine, 2015, 212(4): 435-445.</p>
+<p>[31] Liang Y, Song X, Li Y, et al. LncRNA BCRT1 promotes breast cancer progression by targeting miR-1303/PTBP3 axis[J]. Molecular cancer, 2020, 19(1): 1-20.</p>
+<p>[32] Sang L-J, Ju H-Q, Liu G-P, et al. LncRNA CamK-A regulates Ca2+-signaling-mediated tumor microenvironment remodeling[J]. Molecular cell, 2018, 72(1): 71-83. e7.</p>
+<p>[33] Xu Y, Yu J, Ma C, et al. Impact of knockdown LincRNA-Cox2 on apoptosis of macrophage infected with Bacillus Calmette-Guérin[J]. Mol Immunol, 2021, 130: 85-95.</p>
+<p>[34] Li X, Lei Y, Wu M, et al. Regulation of macrophage activation and polarization by HCC-derived exosomal LncRNA TUC339[J]. International journal of molecular sciences, 2018, 19(10): 2958.</p>
+<p>[35] Zhou Q, Tang X, Tian X, et al. LncRNA MALAT1 negatively regulates MDSCs in patients with lung cancer[J]. Journal of Cancer, 2018, 9(14): 2436.</p>
+<p>[36] Tian X, Ma J, Wang T, et al. Long non-coding RNA RUNXOR accelerates MDSC-mediated immunosuppression in lung cancer[J]. Bmc Cancer, 2018, 18(1): 1-10.</p>
+<p>[37] Fujisaka Y, Iwata T, Tamai K, et al. Long non-coding RNA HOTAIR up‑regulates chemokine (C‑C motif) ligand 2 and promotes proliferation of macrophages and myeloid‑derived suppressor cells in hepatocellular carcinoma cell lines[J]. Oncology letters, 2018, 15(1): 509-514.</p>
+<p>[38] Alikhah A, Pahlevan Kakhki M, Ahmadi A, et al. The role of lnc-DC long non-coding RNA and SOCS1 in the regulation of STAT3 in coronary artery disease and type 2 diabetes mellitus[J]. Journal of Diabetes and its Complications, 2018, 32(3): 258-265.</p>
+<p>[39] Feng M, Zhou S, Yu Y, et al. Regulation of the Migration of Distinct Dendritic Cell Subsets[J]. Frontiers in cell and developmental biology, 2021, 9: 635221-635221.</p>
+<p>[40] Liu J, Zhang X, Chen K, et al. CCR7 chemokine receptor-inducible lnc-Dpf3 restrains dendritic cell migration by inhibiting HIF-1α-mediated glycolysis[J]. Immunity, 2019, 50(3): 600-615. e15.</p>
+<p>[41] Sehgal L, Mathur R, Braun F K, et al. FAS-antisense 1 LncRNA and production of soluble versus membrane Fas in B-cell lymphoma[J]. Leukemia, 2014, 28(12): 2376-87.</p>
+<p>[42] Xia M, Liu J, Liu S, et al. Ash1l and lnc-Smad3 coordinate Smad3 locus accessibility to modulate iTreg polarization and T cell autoimmunity[J]. Nature communications, 2017, 8(1): 1-13.</p>
+<p>[43] Zemmour D, Pratama A, Loughhead S M, et al. Flicr, a long noncoding RNA, modulates Foxp3 expression and autoimmunity[J]. Proc Natl Acad Sci U S A, 2017, 114(17): E3472-e3480.</p>
+<p>[44] Xiong G, Yang L, Chen Y, et al. Linc-POU3F3 promotes cell proliferation in gastric cancer via increasing T-reg distribution[J]. American journal of translational research, 2015, 7(11): 2262-2269.</p>
+<p>[45] Jiang R, Tang J, Chen Y, et al. The long noncoding RNA lnc-EGFR stimulates T-regulatory cells differentiation thus promoting hepatocellular carcinoma immune evasion[J]. Nat Commun, 2017, 8: 15129.</p>
+<p>[46] Yan K, Fu Y, Zhu N, et al. Repression of LncRNA NEAT1 enhances the antitumor activity of CD8+ T cells against hepatocellular carcinoma via regulating miR-155/Tim-3[J]. The international journal of biochemistry &amp; cell biology, 2019, 110: 1-8.</p>
+<p>[47] Ma F, Lei Y-Y, Ding M-G, et al. LncRNA NEAT1 interacted with DNMT1 to regulate malignant phenotype of cancer cell and cytotoxic T cell infiltration via epigenetic inhibition of p53, cGAS, and STING in lung cancer[J]. Frontiers in genetics, 2020, 11: 250.</p>
+<p>[48] Zhang R, Ni F, Fu B, et al. A long noncoding RNA positively regulates CD56 in human natural killer cells[J]. Oncotarget, 2016, 7(45): 72546.</p>
+<p>[49] Fang P, Xiang L, Chen W, et al. LncRNA GAS5 enhanced the killing effect of NK cell on liver cancer through regulating miR-544/RUNX3[J]. Innate immunity, 2019, 25(2): 99-109.</p>
+<p>[50] Wei M, Gu Z, Zheng L, et al. Long non-coding RNA GAS5 promotes natural killer cell cytotoxicity against gastric cancer by regulating miR-18a[J]. Neoplasma, 2020, 67(5): 1085-1093.</p>
+<p>[51] Collier S P, Collins P L, Williams C L, et al. Cutting edge: influence of Tmevpg1, a long intergenic noncoding RNA, on the expression of Ifng by Th1 cells[J]. Journal of immunology (Baltimore, Md. : 1950), 2012, 189(5): 2084-2088.</p>
+<p>[52] Gomez J A, Wapinski O L, Yang Y W, et al. The NeST long ncRNA controls microbial susceptibility and epigenetic activation of the interferon-γ locus[J]. Cell, 2013, 152(4): 743-754.</p>
+<p>[53] Zhang F, Liu G, Wei C, et al. Linc-MAF-4 regulates Th1/Th2 differentiation and is associated with the pathogenesis of multiple sclerosis by targeting MAF[J]. Faseb j, 2017, 31(2): 519-525.</p>
+<p>[54] Spurlock C F, 3rd, Tossberg J T, Guo Y, et al. Expression and functions of long noncoding RNAs during human T helper cell differentiation[J]. Nature communications, 2015, 6: 6932-6932.</p>
+<p>[55] Gibbons H R, Shaginurova G, Kim L C, et al. Divergent LncRNA GATA3-AS1 Regulates GATA3 Transcription in T-Helper 2 Cells[J]. Frontiers in immunology, 2018, 9: 2512-2512.</p>
+<p>[56] Shaker O G, Hassan A, Mohammed A M, et al. lincR-Ccr2-5′AS and THRIL as potential biomarkers of multiple sclerosis[J]. Egyptian Journal of Medical Human Genetics, 2021, 22(1): 32.</p>
+<p>[57] Aune T M, Spurlock Iii C F. Long non-coding RNAs in innate and adaptive immunity[J]. Virus research, 2016, 212: 146-160.</p>
+<p>[58] Imam H, Bano A S, Patel P, et al. The LncRNA NRON modulates HIV-1 replication in a NFAT-dependent manner and is differentially regulated by early and late viral proteins[J]. Scientific reports, 2015, 5: 8639-8639.</p>
+<p>[59] Willingham A T, Orth A P, Batalov S, et al. A strategy for probing the function of noncoding RNAs finds a repressor of NFAT[J]. Science, 2005, 309(5740): 1570-3.</p>
+<p>[60] Huang W, Thomas B, Flynn R A, et al. DDX5 and its associated LncRNA Rmrp modulate TH17 cell effector functions[J]. Nature, 2015, 528(7583): 517-522.</p>
+<p>[61] Kong F, Jin J, Lv X, et al. Long noncoding RNA RMRP upregulation aggravates myocardial ischemia-reperfusion injury by sponging miR-206 to target ATG3 expression[J]. Biomedicine &amp; Pharmacotherapy, 2019, 109: 716-725.</p>
+<p>[62] Qiu Y Y, Wu Y, Lin M J, et al. LncRNA-MEG3 functions as a competing endogenous RNA to regulate Treg/Th17 balance in patients with asthma by targeting microRNA-17/ RORγt[J]. Biomed Pharmacother, 2019, 111: 386-394.</p>
+<p>[63] Wang Y, Zhong H, Xie X, et al. Long noncoding RNA derived from CD244 signaling epigenetically controls CD8+ T-cell immune responses in tuberculosis infection[J]. Proceedings of the National Academy of Sciences of the United States of America, 2015, 112(29): E3883-E3892.</p>
+<p>[64] Yan Y, Han J, Li Z, et al. Elevated RNA expression of long non‑coding HOTAIR promotes cell proliferation and predicts a poor prognosis in patients with diffuse large B cell lymphoma[J]. Molecular medicine reports, 2016, 13(6): 5125-5131.</p>
+<p>[65] Jiang M, Zhang S, Yang Z, et al. Self-Recognition of an Inducible Host LncRNA by RIG-I Feedback Restricts Innate Immune Response[J]. Cell, 2018, 173(4): 906-919.e13.</p>
+<p>[66] Runtsch M C, O'neill L A. GOTcha: LncRNA-ACOD1 targets metabolism during viral infection[J]. Cell Res, 2018, 28(2): 137-138.</p>
+<p>[67] Xue Z, Zhang Z, Liu H, et al. lincRNA-Cox2 regulates NLRP3 inflammasome and autophagy mediated neuroinflammation[J]. Cell death and differentiation, 2019, 26(1): 130-145.</p>
+<p>[68] Cui H, Xie N, Tan Z, et al. The human long noncoding RNA lnc-IL7R regulates the inflammatory response[J]. European journal of immunology, 2014, 44(7): 2085-2095.</p>
+<p>[69] Wu S M, Feng P H, Chuang H C, et al. Impaired lnc‐IL7R modulatory mechanism of Toll‐like receptors is associated with an exacerbator phenotype of chronic obstructive pulmonary disease[J]. The FASEB Journal, 2020, 34(10): 13317-13332.</p>
+<p>[70] Xin J, Li J, Feng Y, et al. Downregulation of long noncoding RNA HOTAIRM1 promotes monocyte/dendritic cell differentiation through competitively binding to endogenous miR-3960[J]. OncoTargets and therapy, 2017, 10: 1307.</p>
+<p>[71] Liu W, Geng F, Yu L. Long non‐coding RNA MALAT1/microRNA 125a axis presents excellent value in discriminating sepsis patients and exhibits positive association with general disease severity, organ injury, inflammation level, and mortality in sepsis patients[J]. Journal of clinical laboratory analysis, 2020, 34(6): e23222.</p>
+<p>[72] Zhang J, Li Y, Dong M, et al. Long non-coding RNA NEAT1 regulates E2F3 expression by competitively binding to miR-377 in non-small cell lung cancer[J]. Oncology letters, 2017, 14(4): 4983-4988.</p>
+<p>[73] Shui X, Chen S, Lin J, et al. Knockdown of LncRNA NEAT1 inhibits Th17/CD4(+) T cell differentiation through reducing the STAT3 protein level[J]. J Cell Physiol, 2019, 234(12): 22477-22484.</p>
+<p>[74] Teimuri S, Hosseini A, Rezaenasab A, et al. Integrative Analysis of LncRNAs in Th17 Cell Lineage to Discover New Potential Biomarkers and Therapeutic Targets in Autoimmune Diseases[J]. Mol Ther Nucleic Acids, 2018, 12: 393-404.</p>
+<p>[75] Yang C-A, Li J-P, Yen J-C, et al. LncRNA NTT/PBOV1 Axis Promotes Monocyte Differentiation and Is Elevated in Rheumatoid Arthritis[J]. International journal of molecular sciences, 2018, 19(9): 2806.</p>
+<p>[76] Li Z, Chao T-C, Chang K-Y, et al. The long noncoding RNA THRIL regulates TNFα expression through its interaction with hnRNPL[J]. Proceedings of the National Academy of Sciences, 2014, 111(3): 1002-1007.</p>
+<p>[77] Tamgue O, Chia J E, Brombacher F. Triptolide Modulates the Expression of Inflammation-Associated LncRNA-PACER and lincRNA-p21 in Mycobacterium tuberculosis-Infected Monocyte-Derived Macrophages[J]. Frontiers in pharmacology, 2021, 12: 618462-618462.</p>
+<p>[78] Gupta S C, Awasthee N, Rai V, et al. Long non-coding RNAs and nuclear factor-κB crosstalk in cancer and other human diseases[J]. Biochimica et biophysica acta. Reviews on cancer, 2020, 1873(1): 188316-188316.</p>
+<p>[79] Gao Y, Shang W, Zhang D, et al. Lnc-C/EBPβ modulates differentiation of MDSCs through downregulating IL4i1 with C/EBPβ LIP and WDR5[J]. Frontiers in immunology, 2019, 10: 1661.</p>
+<p>[80] Wei L, Li J, Han Z, et al. Silencing of LncRNA MALAT1 prevents inflammatory injury after lung transplant ischemia-reperfusion by downregulation of IL-8 via p300[J]. Molecular Therapy-Nucleic Acids, 2019, 18: 285-297.</p>
+<h1 id="附录">附录</h1>
+<p>在笔者满怀欣喜写完本文时，意外搜到一篇题目优美且无论在思路上还是内容上都与本文相似的文章，在感叹自己‘有一个绝妙的点子’的时候，才发现自己的绝妙点子被学科素养更扎实、综合素质更深厚、英语写作水平更高、行文更优美的协和医学院的学生在一年前发表了。</p>
+<p>对比之后发现此文胜在分析LncRNA与肿瘤免疫微环境各细胞亚群方面内容详尽、基础扎实且配图美观，写作功力深厚，绝非笔者临时抱佛脚可比。本文并非毫无可取之处，本文在LncRNA的生物学功能上有更详细的论述。Zhang, Y., Liu, Q. &amp; Liao, Q. Long noncoding RNA: a dazzling dancer in tumor immune microenvironment. J Exp Clin Cancer Res 39, 231 (2020). 为本文的主要参考文献，非常值得参考学习，附表如下：</p>
+<p>​</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Febrile Temperature Critically Controls the Differentiation and Pathogenicity of T Helper 17 Cells]]></title>
+        <id>https://lumluminous.github.io/blog/post/febrile-temperature-critically-controls-the-differentiation-and-pathogenicity-of-t-helper-17-cells/</id>
+        <link href="https://lumluminous.github.io/blog/post/febrile-temperature-critically-controls-the-differentiation-and-pathogenicity-of-t-helper-17-cells/">
+        </link>
+        <updated>2022-07-07T09:51:11.000Z</updated>
+        <summary type="html"><![CDATA[<ol>
+<li>https://doi.org/10.1016/j.immuni.2020.01.006</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/lumluminous/Picbed_Picgo/main/20220707175653.png" alt="" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>https://doi.org/10.1016/j.immuni.2020.01.006</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/lumluminous/Picbed_Picgo/main/20220707175653.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><strong>本文要点：</strong><br>
+1）与37°C以下相比，在发热温度（38.5°C–39.5°C）下生成的Th17细胞具有强致病性基因的表达，并具有体内促炎活性。体外高温选择性地调节Th17细胞分化以增强白介素17（IL-17）、IL-17F和IL-22表达，该结果证明发烧在适应性免疫反应中起关键作用，并影响了自身免疫性疾病。<br>
+2）从机制上讲，发热温度促进了SMAD4转录因子的SUMO化，以促进其核定位。<br>
+3）在体外以及改良的自身免疫性疾病模型中，SMAD4的缺失有选择地消除了发热温度对Th17细胞分化的影响</p>
+<!-- more -->
+<ol start="2">
+<li>Febrile temperature change modulates CD4 T cell differentiation via a TRPV channel-regulated Notch-dependent pathway</li>
+</ol>
+<p>https://doi.org/10.1073/pnas.1922683117</p>
+<p>Since fever is frequently a response to infection, immune responses likely occur commonly at fever temperatures. Are fever temperatures detected by immune cells, what molecular pathways are involved in this sensing, and what are the functional consequences? Our data show that CD4 T lymphocytes detect moderate fever temperature. A TRPV channel-mediated pathway involving Notch activation leads to a Th2 skewing of the effector T cell response. However, the antigen presenting dendritic cells that stimulate CD4 T cells, in turn, detect fever temperature and overproduce interleukin-12 to counter this Th2 skewing. The evolutionary genesis of these pathways and the functional consequences of this complex regulatory loop in specific infectious circumstances are, thus, likely to be of great interest.</p>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/lumluminous/Picbed_Picgo/main/20220707180233.png" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>Metabolic control of TH17 and induced Treg cell balance by an epigenetic mechanism</li>
+</ol>
+<p>In summary, we have shown that increased transamination via GOT1 leads to a much greater accumulation of 2-HG in differentiating TH17 cells than in iTreg cells, and this promoted the methylation of the Foxp3 gene locus and silenced Foxp3 gene expression. Notably, we found that 2-HG levels in differentiating TH17 cells (for example, 0.1–0.4 mM) were much lower than that in human cancer cells containing IDH1 and IDH2 mutations (≥1 mM). Nonetheless, endogenous 2-HG accumulations under TH17 conditions and experiments with exogenously added 2-HG in TH17 cell culture correlate well with hypermethylation of the Foxp3 gene locus and reduced mRNA and protein levels of FOXP3 in fully differentiated TH17 cells, suggesting that different cell types may exhibit differential sensitivity to 2-HG levels. Manipulating a single step in a glutamate metabolic pathway could change TH17 cell fate by affecting methylation of the Foxp3 gene locus, and ameliorate mouse EAE disease by regulating the TH17 and iTreg cell balance, highlighting the importance of cellular metabolism in the determination of T-cell fate.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Single-cell sequencing: the technological revolution behind a new wave of multiomic studies in basic and cancer research]]></title>
+        <id>https://lumluminous.github.io/blog/post/single-cell-sequencing-the-technological-revolution-behind-a-new-wave-of-multiomic-studies-in-basic-and-cancer-research/</id>
+        <link href="https://lumluminous.github.io/blog/post/single-cell-sequencing-the-technological-revolution-behind-a-new-wave-of-multiomic-studies-in-basic-and-cancer-research/">
+        </link>
+        <updated>2022-07-07T06:03:54.000Z</updated>
+        <content type="html"><![CDATA[<p>https://doi.org/10.2144/btn-2021-0088<br>
+作者Tristan Free认为，在有了单细胞技术之后，研究人员的能力越来越强，可以使用多组学方法来解决多个研究领域中的问题。他认为两个因素促成了这种增长。一个是现有技术越来越丰富，大大增加了从单个细胞中获得的信息量。另一个是技术之间兼容性更好，能够同时收集不同层次的组学信息。<br>
+新兴领域——调控组</p>
+<p>**调控组（regulome）**指的是细胞内调控因子的集合，它们通过染色质可接近性等因素控制基因表达，并调控表达程序来定义细胞。斯坦福大学医学院的两个实验室是这个新兴领域的领头羊，它们分别由Will Greenleaf教授和Howard Chang教授领导。</p>
+<p>Greenleaf教授认为，单细胞技术的进步和多组学的兴起对这一领域的发展至关重要。“调控组的研究意味着要将蛋白质与DNA/RNA的相互作用转化成高通量测序仪可测序的东西。”为了捕获研究调控组所需的多层次信息，需要使用多种技术。单细胞RNA测序和蛋白质测序可以了解细胞内发生了什么，至于为什么会发生，这就需要用到ATAC-seq技术。</p>
+<p>2013年，两个研究团队在《Nature Methods》杂志上发表了ATAC-seq技术的开山之作，利用Tn5转座酶对染色质进行切割，从而绘制基因组中的开放染色质区域。Greenleaf在介绍ATAC-seq的开发时，也强调了将该方法应用于单个细胞的重要性，可以避免复杂样本的“可怕平均值”。</p>
+<p>他举了一个很有意思的例子来说明：“如果一艘船从美国东部行驶到西部，你可以穿过巴拿马运河，也可以绕过南美洲的底部。如果一平均，就变成了穿过巴西，事实上没有船走那条路线。将事情平均起来，你会得到误导性的信息。”</p>
+<p>Greenleaf希望通过调控组的研究来了解细胞如何分化为不同的发育状态。利用单细胞多组学方法，他能够观察到染色质可接近性的变化，以及不同时间点的基因表达和蛋白质丰度变化。这有助于认识细胞中导致分化的整体通路变化。他认为，这也可以帮助我们了解细胞如何分化为癌细胞。</p>
+<p>Tristan Free表示，几乎所有能够额外信息或细节的新技术都被用于对付癌症。因此，随着癌症异质性的确立，无论是个体之间还是同一肿瘤内，单细胞技术被纳入癌症研究也就不足为奇了，人们还是想避免“可怕的平均值”。</p>
+<p>自2016年以来，Greenleaf和Chang实验室利用他们开发的工具深入研究白血病，并试图改进癌症治疗方法。他们发表了一系列论文。在第一篇发表于《Nature Genetics》的论文中，他们采用Fast-ATAC-seq（针对血细胞优化的ATAC-seq方案）和RNA-seq来研究急性髓系白血病（AML）患者的血液样本的染色质可接近性和转录图谱。</p>
+<p>三年后，两个团队重新审视了白血病的调控图谱，将研究重点扩大到混合表型急性白血病（MPAL）。为此，他们设计了一个单细胞框架，可以实现蛋白质定量、转录组分析和染色质可接近性分析。该框架的核心是10x Genomics公司的两个单细胞测序工具：微滴式scATAC-seq和CITE-seq。通过这项研究，他们发现了一个潜在的致癌基因RUNX1，被认为调控了与MPAL生存率低相关的恶性基因。</p>
+<p>在那之后，其他团队也发表了一些文章，利用单细胞多组学技术来探索肺癌异质性并建立这些癌症背后的常见调节因子。同时，研究人员也将目光转向肿瘤以外，探索肿瘤与 T 细胞之间的关系。</p>
+<p>文章还提到，癌症研究的另一个趋势是免疫疗法的开发。然而，这些疗法的主要障碍在于肿瘤微环境中的T细胞耗竭和功能障碍。针对这个问题，Greenleaf和Chang团队试图建立与耗竭状态的形成和维持相关的调控网络。</p>
+<p>研究人员比较了CD19-28Z-CAR-T 细胞和HA-28z-CAR-T 细胞的染色质结构，已知后者更容易耗竭。对于HA-28z-CAR-T 细胞，他们发现耗竭相关基因（如PDCD1）附近位点的染色质可接近性更高。其中许多位点富含转录因子AP-1的结合域，增加了这种转录因子与DNA的结合。众所周知，AP-1会促进CAR-T细胞的耗竭。转录组图谱则揭示了表观遗传变化后这些耗竭相关基因的表达增加。</p>
+<p>之后，他们利用CRISPR技术切除了控制PDCD1表达的基因组调控元件，成功降低了PD-1的表达。这是朝着降低CAR-T疗法的T细胞耗竭迈出了重要一步，也揭示了在改进免疫疗法时可编辑的一组新靶点。这项研究也突出了单细胞多组学技术的转化价值。</p>
+<p>最后，Tristan Free还列出了单细胞和多组学技术在多个领域的应用，比如新冠肺炎研究和神经科学研究，让人们对多种疾病有了新的认识。他认为，随着这些技术的不断发展和进步，应用它们的研究领域和研究人员将继续增加。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Ought Problem]]></title>
+        <id>https://lumluminous.github.io/blog/post/is-ought-problem/</id>
+        <link href="https://lumluminous.github.io/blog/post/is-ought-problem/">
+        </link>
+        <updated>2022-07-07T04:08:21.000Z</updated>
+        <content type="html"><![CDATA[<p>The is-ought fallacy occurs when the assumption is made that because things are a certain way, they should be that way. It can also consist of the assumption that because something is not now occurring, this means it should not occur. In effect, this fallacy asserts that the status quo should be maintained simply for its own sake. It seeks to make a value of a fact or to derive a moral imperative from the description of a state of affairs.</p>
+<p><em>Examples:</em></p>
+<ul>
+<li>We do not currently regulate the amount of nicotine in an individual cigarette; therefore we need not do this.</li>
+<li>If nature does not make it, we shouldn't have it.</li>
+<li>We've always had Bonfire, so we always should.</li>
+<li>The Electoral College is specified in the Constitution, so we can't do away with it.</li>
+<li>Of course homosexuality is immoral. You don't see any animals doing that.</li>
+<li>It's totally natural to have many sexual partners. Go with it.</li>
+<li>Oh, Larry, why are you so upset about my cheating on the exam? I saw an article saying 70% of college students admit to cheating. I think it's to be expected that people will do whatever it takes to get what they want. So, people should do what they have to do.</li>
+<li>The simple fact is that war is good for mankind, since the tendency to conflict is a human instinct.</li>
+<li>Why do you argue about whether abortion is moral? It's legal isn't it?</li>
+</ul>
+]]></content>
+    </entry>
+</feed>

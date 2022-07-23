@@ -1,0 +1,308 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flow cytometry  | Lum&#39;s Notes</title>
+<link rel="shortcut icon" href="https://lumluminous.github.io/blog/favicon.ico?v=1658559265011">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://lumluminous.github.io/blog/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Flow cytometry  | Lum&#39;s Notes - Atom Feed" href="https://lumluminous.github.io/blog/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="思考题：根据自己专业方向或研究课题内容设计细胞分选实验方案，如多色标记样品中3-4种细胞分选，包括试剂订购、实验对照管设计、样品制备过程、分选上机前的准备、画出流式分析图、并圈门指出哪些是要分选的细胞群，需要做几路分选收取目的细胞？如何做纯..." />
+    <meta name="keywords" content="Lab" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://lumluminous.github.io/blog">
+  <img class="avatar" src="https://lumluminous.github.io/blog/images/avatar.png?v=1658559265011" alt="">
+  </a>
+  <h1 class="site-title">
+    Lum&#39;s Notes
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Flow cytometry 
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-07-07
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+                <a href="https://lumluminous.github.io/blog/tag/84jnI76mk/" class="post-tag">
+                  # Lab
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://lumluminous.github.io/blog/post-images/flow-cytometry.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>思考题：根据自己专业方向或研究课题内容设计细胞分选实验方案，如多色标记样品中3-4种细胞分选，包括试剂订购、实验对照管设计、样品制备过程、分选上机前的准备、画出流式分析图、并圈门指出哪些是要分选的细胞群，需要做几路分选收取目的细胞？如何做纯度分析？</p>
+<p><strong>仪器选择</strong></p>
+<p>BD FACS Aria SORP(Special Order Research Product) 6激光18参数</p>
+<p><strong>试剂订购</strong></p>
+<table>
+<thead>
+<tr>
+<th>抗体名称</th>
+<th>Source</th>
+<th>克隆号</th>
+<th>稀释度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anti-mouse CD4-APC</td>
+<td>BD</td>
+<td></td>
+<td>1：400</td>
+</tr>
+<tr>
+<td>Anti-mouse CD25-PE-Cy7</td>
+<td>BD</td>
+<td></td>
+<td>1：400</td>
+</tr>
+<tr>
+<td>Anti-mouse CD44-Pacific blue</td>
+<td>BD</td>
+<td></td>
+<td>1：400</td>
+</tr>
+<tr>
+<td>Anti-mouse CD62L-APC-Cy7</td>
+<td>BD</td>
+<td></td>
+<td>1：400</td>
+</tr>
+<tr>
+<td>anti-CD62L-FITC</td>
+<td>BioLegend</td>
+<td>104406</td>
+<td>Use at 1:100</td>
+</tr>
+<tr>
+<td>anti-CD25-PE</td>
+<td>BioLegend</td>
+<td>102008</td>
+<td>Use at 1:400</td>
+</tr>
+<tr>
+<td>anti-CD4-PerCP</td>
+<td>BioLegend</td>
+<td>100434</td>
+<td>Use at 1:1000</td>
+</tr>
+<tr>
+<td>anti-CD44-APC</td>
+<td>BioLegend</td>
+<td>103012</td>
+<td>Use at 1:500</td>
+</tr>
+</tbody>
+</table>
+<p><strong>对照管设计</strong></p>
+<table>
+<thead>
+<tr>
+<th>阳性对照</th>
+<th>空白对照</th>
+<th>同型对照</th>
+<th>单阳对照</th>
+<th>FMO</th>
+<th>试验样品</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>阳性样本，可以没有，1管</td>
+<td>blank,不染色，1管</td>
+<td>PE-IgG,APC-IgG,Percp-IgG，FITC-IgG混合一个管中。</td>
+<td>分别只染一个颜色，4管</td>
+<td>荧光减一，可以不做，4管</td>
+<td>染所有荧光素</td>
+</tr>
+</tbody>
+</table>
+<p><strong>样品制备</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://pic1.zhimg.com/80/v2-ab302d14dcffbc8947219fa9735fa762_1440w.jpg?source=d16d100b" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://pic2.zhimg.com/80/v2-f5a541c2268bd3fc7814c391a1cceee2_1440w.jpg?source=d16d100b" alt="img" loading="lazy"></figure>
+<p>获取细胞悬液（磁珠富集）→荧光抗体染色→调整细胞浓度（1~10 X 106 cells/ml）→过滤细胞→移入流式管→避光置冰上运至分选室→上机检测并设定分选条件→分选细胞→上机回测，检测纯度。</p>
+<p><strong>分选上机前准备</strong></p>
+<p>1、单细胞悬液样品（推荐使用0.1-1.0%BSA-PBS溶液重悬样品），上机前使用300目滤网过滤（推荐BD滤网），禁止使用含血清的培养基或PBS溶液。上机前务必去除样品中之细胞团块，过滤以免管路堵塞。</p>
+<p>2、无菌制备，避免样品带菌对设备造成污染，进而影响其他用户的无菌分选实验。</p>
+<p>3、根据您的样本种类和选择的荧光标记物，与仪器管理人员沟通确认所使用荧光滤光片和喷嘴直径。</p>
+<p>若欲分选GFP、RFP等单色基因转染的样品，需提供未经转染的相同细胞为对照组标本，以作为分选前机器校正用。若以多种荧光染色进行分选，需提供各种单一荧光染色的标本作为分选前仪器校正用。</p>
+<p>4、另需要准备：收集管或收集板（可以加入少量培养基或buffer），上样缓冲液或者PBS（可能需要稀释样品）。</p>
+<p>浙大生科版本：</p>
+<p>a） 保证样本的无菌状态，因为分选得到的细胞还要继续培养；</p>
+<p>b） 不能使用固定剂固定细胞，因为活细胞经固定剂处理后即死亡；</p>
+<p>c） 保证上机样品为单细胞悬液；</p>
+<p>d） 准备充足的细胞；</p>
+<p>e） 建议分选上样管中的缓冲液使用含2% FBS的PBS，普通培养基中的酚红可能会干扰分选；若用培养基的话，颜色不能太深，血清浓度不能超过2%，否则粘性太大影响分选。</p>
+<p>f） 如细胞分选后需再次培养，请准备含血清的收集管，在分选前交操作员。建议在5ml离心管中加入1-2ml血清及其它必需组分，保证分选完毕时血清浓度大于5%，（建议使用含20%FBS的DMEM）；</p>
+<p>g） 如要分选GFP等转染的样品，请提供未经转染的相同细胞为阴性对照；</p>
+<p>h） 如要做多重荧光染色标本的分选，请提供各种单一荧光染色的标本（如有光谱重叠，需要做荧光补偿调节）；</p>
+<p>i） 如要去除死细胞，在不影响后续实验前提下，可以加入7-AAD或是PI；</p>
+<p>j） 快速简便的样本处理有利于分选：处理好的样本尽快上机，分选好的细胞尽快下一步实验，如果要分选多个样本，建议一次处理一个，估计可能的上机时间后，再处理第二个样本</p>
+<p><strong>画图圈门</strong></p>
+<figure data-type="image" tabindex="3"><img src="https://pic3.zhimg.com/80/v2-62d7a405e3b5b55e0813b509f517b908_1440w.jpg?source=d16d100b" alt="img" loading="lazy"></figure>
+<p><strong>1路分选收取目的细胞，纯度分析</strong></p>
+<p>Purity=分选得到的目的细胞/分选得到的总细胞，取少量分选出的目的细胞再次上机分析，分析目的细胞占全部细胞的百分比</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://lumluminous.github.io/blog/post/than/">
+              <h3 class="post-title">
+                Than
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://lumluminous.github.io/blog/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
